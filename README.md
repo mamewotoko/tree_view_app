@@ -1,6 +1,5 @@
-Tree viwer app
+Tree viewr app [![Build Status](https://travis-ci.org/mamewotoko/tree_view_app.svg?branch=master)](https://travis-ci.org/mamewotoko/tree_view_app)
 ==============
-[![Build Status](https://travis-ci.org/mamewotoko/tree_view_app.svg?branch=master)](https://travis-ci.org/mamewotoko/tree_view_app)
 Java apps which uses tree viewer
 
 Build
