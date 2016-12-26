@@ -1,7 +1,6 @@
 Tree viwer app
 --------------
-A Java app which uses tree viewer.
-
+Java apps which uses tree viewer
 
 Build
 -----
