@@ -23,7 +23,7 @@ Apps
 ----
 1. DOM tree of html(?)
 2. 2 pane tree view to view java method name
-   [screenshot2](doc/2.png)
+   ![screenshot2](doc/2.png)
 3. Ocaml(?)
 
 TODO
