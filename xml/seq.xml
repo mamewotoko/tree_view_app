@@ -1,0 +1,1692 @@
+<?xml version="1.0" encoding="euc-jp"?>
+<files>
+<Daemon kind="class" startline="31" startcolumn="14">
+		<getReference kind="method" startline="127" startcolumn="26" >
+		</getReference>
+		<Daemon kind="method" startline="132" startcolumn="12" >
+		</Daemon>
+		<Daemon kind="method" startline="137" startcolumn="12" >
+			<InetAddress.getLocalHost kind="call" startline="147" startcolumn="41" />
+			<localhost.getHostName kind="call" startline="148" startcolumn="29" />
+			<e.printStackTrace kind="call" startline="150" startcolumn="17" />
+			<System.exit kind="call" startline="151" startcolumn="17" />
+			<System.err.println kind="call" startline="163" startcolumn="13" />
+			<System.err.println kind="call" startline="164" startcolumn="13" />
+		</Daemon>
+		<Daemon kind="method" startline="168" startcolumn="12" >
+		</Daemon>
+		<endDaemon kind="method" startline="173" startcolumn="17" >
+		</endDaemon>
+		<isRunning kind="method" startline="178" startcolumn="20" >
+		</isRunning>
+		<run kind="method" startline="183" startcolumn="17" >
+			<_server_socket.accept kind="call" startline="188" startcolumn="33" />
+			<System.err.println kind="call" startline="190" startcolumn="17" />
+			<e.toString kind="call" startline="191" startcolumn="36" />
+			<System.err.println kind="call" startline="191" startcolumn="17" />
+			<System.err.println kind="call" startline="194" startcolumn="17" />
+			<e.toString kind="call" startline="195" startcolumn="36" />
+			<System.err.println kind="call" startline="195" startcolumn="17" />
+			<System.out.println kind="call" startline="200" startcolumn="17" />
+			<t.toString kind="call" startline="205" startcolumn="40" />
+			<System.err.println kind="call" startline="205" startcolumn="21" />
+			<tdr.start kind="call" startline="207" startcolumn="17" />
+		</run>
+		<establishConnection kind="method" startline="212" startcolumn="19" >
+			<establishConnection kind="call" startline="214" startcolumn="16" />
+		</establishConnection>
+		<establishConnection kind="method" startline="217" startcolumn="19" >
+			<System.out.println kind="call" startline="220" startcolumn="13" />
+			<System.out.println kind="call" startline="221" startcolumn="13" />
+			<System.out.println kind="call" startline="222" startcolumn="13" />
+			<Thread.currentThread kind="call" startline="223" startcolumn="13" />
+			<dumpStack kind="call" startline="223" startcolumn="36" />
+			<Thread.currentThread kind="call" startline="223" startcolumn="13" />
+			<System.out.println kind="call" startline="233" startcolumn="13" />
+			<System.out.println kind="call" startline="234" startcolumn="13" />
+			<System.out.println kind="call" startline="235" startcolumn="13" />
+			<e.printStackTrace kind="call" startline="236" startcolumn="13" />
+			<System.out.println kind="call" startline="240" startcolumn="13" />
+			<System.out.println kind="call" startline="241" startcolumn="13" />
+			<System.out.println kind="call" startline="242" startcolumn="13" />
+			<e2.printStackTrace kind="call" startline="243" startcolumn="13" />
+			<req_socket.getOutputStream kind="call" startline="247" startcolumn="27" />
+			<req_socket.getInputStream kind="call" startline="249" startcolumn="26" />
+			<dos.writeByte kind="call" startline="254" startcolumn="9" />
+			<dos.flush kind="call" startline="255" startcolumn="9" />
+			<dis.readByte kind="call" startline="257" startcolumn="18" />
+			<System.err.println kind="call" startline="262" startcolumn="13" />
+		</establishConnection>
+		<getFileContents kind="method" startline="268" startcolumn="26" >
+			<file.length kind="call" startline="272" startcolumn="42" />
+			<fis.read kind="call" startline="273" startcolumn="9" />
+		</getFileContents>
+		<registerSentComponent kind="method" startline="277" startcolumn="37" >
+			<Integer.toString kind="call" startline="279" startcolumn="34" />
+			<_sent_component_cache.add kind="call" startline="280" startcolumn="9" />
+		</registerSentComponent>
+		<cleanSentComponentCache kind="method" startline="283" startcolumn="37" >
+			<_sent_component_cache.clear kind="call" startline="285" startcolumn="9" />
+		</cleanSentComponentCache>
+		<alreadySentComponent kind="method" startline="288" startcolumn="40" >
+			<Integer.toString kind="call" startline="290" startcolumn="34" />
+			<_sent_component_cache.contains kind="call" startline="292" startcolumn="12" />
+		</alreadySentComponent>
+		<fetchMigrateComponent kind="method" startline="301" startcolumn="29" >
+			<Daemon._migration_repository.get kind="call" startline="305" startcolumn="33" />
+		</fetchMigrateComponent>
+		<bindMigrateComponentEvent kind="method" startline="312" startcolumn="26" >
+			<System.out.println kind="call" startline="316" startcolumn="13" />
+			<Thread.currentThread kind="call" startline="317" startcolumn="13" />
+			<dumpStack kind="call" startline="317" startcolumn="36" />
+			<Thread.currentThread kind="call" startline="317" startcolumn="13" />
+			<System.out.println kind="call" startline="322" startcolumn="13" />
+			<Daemon.fetchMigrateComponent kind="call" startline="324" startcolumn="30" />
+			<sleep kind="call" startline="330" startcolumn="17" />
+			<Daemon.fetchMigrateComponent kind="call" startline="332" startcolumn="24" />
+			<Daemon.addConnectedBy kind="call" startline="338" startcolumn="13" />
+			<System.out.println kind="call" startline="340" startcolumn="13" />
+			<dest.bindEventDest kind="call" startline="342" startcolumn="13" />
+			<System.out.println kind="call" startline="348" startcolumn="17" />
+			<establishConnection kind="call" startline="349" startcolumn="22" />
+			<socket.getOutputStream kind="call" startline="351" startcolumn="31" />
+			<socket.getInputStream kind="call" startline="354" startcolumn="30" />
+			<dos.writeByte kind="call" startline="357" startcolumn="13" />
+			<dos.writeUTF kind="call" startline="358" startcolumn="13" />
+			<dos.writeUTF kind="call" startline="359" startcolumn="13" />
+			<dos.writeInt kind="call" startline="360" startcolumn="13" />
+			<dos.writeUTF kind="call" startline="361" startcolumn="13" />
+			<dos.writeUTF kind="call" startline="362" startcolumn="13" />
+			<dis.readBoolean kind="call" startline="365" startcolumn="26" />
+			<System.err.println kind="call" startline="367" startcolumn="17" />
+			<Daemon.addPublicChannelSource kind="call" startline="372" startcolumn="26" />
+			<System.out.println kind="call" startline="374" startcolumn="13" />
+		</bindMigrateComponentEvent>
+		<getNewAddress kind="method" startline="379" startcolumn="31" >
+			<_migrate_to.get kind="call" startline="381" startcolumn="30" />
+		</getNewAddress>
+		<bindAfterMigrationEvent kind="method" startline="385" startcolumn="29" >
+			<System.out.println kind="call" startline="388" startcolumn="13" />
+			<Daemon.fetchComponent kind="call" startline="397" startcolumn="30" />
+			<Daemon.getNewAddress kind="call" startline="399" startcolumn="44" />
+			<System.err.println kind="call" startline="401" startcolumn="21" />
+			<Daemon.fetchMigrateComponent kind="call" startline="414" startcolumn="24" />
+			<Daemon.addNewComponentInforme kind="call" startline="415" startcolumn="17" />
+			<transferLink kind="call" startline="416" startcolumn="42" />
+			<Daemon.fetchComponent kind="call" startline="421" startcolumn="28" />
+			<Daemon.getNewAddress kind="call" startline="423" startcolumn="52" />
+			<System.err.println kind="call" startline="425" startcolumn="29" />
+			<Daemon.fetchMigrateComponent kind="call" startline="436" startcolumn="32" />
+			<Daemon.addNewComponentInforme kind="call" startline="437" startcolumn="25" />
+			<transferLink kind="call" startline="438" startcolumn="50" />
+			<transferLink kind="call" startline="441" startcolumn="50" />
+			<System.out.println kind="call" startline="442" startcolumn="25" />
+			<dest.bindEventDest kind="call" startline="443" startcolumn="25" />
+			<establishConnection kind="call" startline="456" startcolumn="22" />
+			<socket.getOutputStream kind="call" startline="458" startcolumn="31" />
+			<socket.getInputStream kind="call" startline="461" startcolumn="30" />
+			<dos.writeUTF kind="call" startline="464" startcolumn="13" />
+			<dos.writeUTF kind="call" startline="465" startcolumn="13" />
+			<dos.writeUTF kind="call" startline="466" startcolumn="13" />
+			<dis.readBoolean kind="call" startline="469" startcolumn="17" />
+			<dis.readUTF kind="call" startline="470" startcolumn="32" />
+			<dis.readInt kind="call" startline="471" startcolumn="29" />
+			<System.out.println kind="call" startline="472" startcolumn="17" />
+			<socket.close kind="call" startline="473" startcolumn="17" />
+			<System.out.println kind="call" startline="477" startcolumn="17" />
+			<dest_address.equals kind="call" startline="480" startcolumn="21" />
+			<dos.writeByte kind="call" startline="490" startcolumn="17" />
+			<dos.writeUTF kind="call" startline="491" startcolumn="17" />
+			<dos.writeInt kind="call" startline="492" startcolumn="17" />
+			<Daemon.addPublicChannelSource kind="call" startline="495" startcolumn="30" />
+			<System.out.println kind="call" startline="502" startcolumn="13" />
+			<Daemon.bindMigrateComponentEvent kind="call" startline="505" startcolumn="18" />
+			<System.err.println kind="call" startline="510" startcolumn="13" />
+		</bindAfterMigrationEvent>
+		<findComponent kind="method" startline="517" startcolumn="28" >
+			<findComponent kind="call" startline="519" startcolumn="16" />
+		</findComponent>
+		<findComponent kind="method" startline="522" startcolumn="28" >
+			<findComponent kind="call" startline="524" startcolumn="16" />
+		</findComponent>
+		<findComponent kind="method" startline="527" startcolumn="28" >
+			<findComponent kind="call" startline="529" startcolumn="16" />
+		</findComponent>
+		<findComponent kind="method" startline="532" startcolumn="28" >
+			<Daemon.getDaemonAddress kind="call" startline="535" startcolumn="27" />
+			<address.equals kind="call" startline="535" startcolumn="12" />
+			<Daemon.getDaemonPort kind="call" startline="535" startcolumn="63" />
+			<coreFindComponent kind="call" startline="537" startcolumn="20" />
+			<establishConnection kind="call" startline="541" startcolumn="25" />
+			<socket.getInputStream kind="call" startline="543" startcolumn="26" />
+			<socket.getOutputStream kind="call" startline="546" startcolumn="27" />
+			<System.err.println kind="call" startline="550" startcolumn="9" />
+			<dos.writeUTF kind="call" startline="551" startcolumn="9" />
+			<dis.readInt kind="call" startline="554" startcolumn="24" />
+			<Integer.toString kind="call" startline="555" startcolumn="90" />
+			<System.err.println kind="call" startline="555" startcolumn="9" />
+			<dis.readUTF kind="call" startline="561" startcolumn="24" />
+		</findComponent>
+		<pingDaemon kind="method" startline="566" startcolumn="27" >
+			<pingDaemon kind="call" startline="568" startcolumn="16" />
+		</pingDaemon>
+		<pingDaemon kind="method" startline="571" startcolumn="27" >
+			<Daemon.getDaemonAddress kind="call" startline="574" startcolumn="27" />
+			<address.equals kind="call" startline="574" startcolumn="12" />
+			<Daemon.getDaemonPort kind="call" startline="574" startcolumn="63" />
+			<establishConnection kind="call" startline="582" startcolumn="22" />
+			<socket.getInputStream kind="call" startline="585" startcolumn="26" />
+			<dis.readBoolean kind="call" startline="589" startcolumn="28" />
+		</pingDaemon>
+		<coreFindComponent kind="method" startline="593" startcolumn="21" >
+			<Daemon.fetchComponentsByClass kind="call" startline="595" startcolumn="30" />
+			<getUniqueID kind="call" startline="599" startcolumn="34" />
+			<comps kind="call" startline="599" startcolumn="25" />
+		</coreFindComponent>
+		<unregistery kind="method" startline="603" startcolumn="27" >
+			<unregistery kind="call" startline="605" startcolumn="16" />
+		</unregistery>
+		<unregistery kind="method" startline="608" startcolumn="27" >
+			<Daemon.getDaemonAddress kind="call" startline="611" startcolumn="29" />
+			<host_dest.equals kind="call" startline="611" startcolumn="12" />
+			<Daemon.getDaemonPort kind="call" startline="611" startcolumn="65" />
+			<Daemon.unregister kind="call" startline="614" startcolumn="25" />
+			<establishConnection kind="call" startline="619" startcolumn="25" />
+			<socket.getOutputStream kind="call" startline="620" startcolumn="27" />
+			<socket.getInputStream kind="call" startline="622" startcolumn="26" />
+			<dos.writeUTF kind="call" startline="625" startcolumn="9" />
+			<dos.writeInt kind="call" startline="626" startcolumn="9" />
+			<dis.readBoolean kind="call" startline="628" startcolumn="26" />
+		</unregistery>
+		<unregister kind="method" startline="634" startcolumn="28" >
+			<Daemon.unregisterComponent kind="call" startline="640" startcolumn="22" />
+			<Daemon.unregisterClass kind="call" startline="643" startcolumn="22" />
+			<Daemon.unregisterBytecode kind="call" startline="646" startcolumn="22" />
+			<Daemon.unregisterFile kind="call" startline="649" startcolumn="22" />
+		</unregister>
+		<getDaemonClassLoader kind="method" startline="655" startcolumn="30" >
+		</getDaemonClassLoader>
+		<registerComponent kind="method" startline="660" startcolumn="24" >
+			<Daemon._repository.contains kind="call" startline="662" startcolumn="12" />
+			<Daemon.generateUniqueID kind="call" startline="664" startcolumn="21" />
+			<component.setUniqueID kind="call" startline="665" startcolumn="9" />
+			<bindComonent kind="call" startline="667" startcolumn="9" />
+		</registerComponent>
+		<unregisterComponent kind="method" startline="673" startcolumn="27" >
+			<_repository.get kind="call" startline="675" startcolumn="43" />
+			<_repository.remove kind="call" startline="678" startcolumn="9" />
+		</unregisterComponent>
+		<fetchComponent kind="method" startline="682" startcolumn="29" >
+			<_repository.get kind="call" startline="686" startcolumn="37" />
+		</fetchComponent>
+		<fetchComponentsByClass kind="method" startline="691" startcolumn="32" >
+			<Class.forName kind="call" startline="696" startcolumn="25" />
+			<_repository.values kind="call" startline="700" startcolumn="25" />
+			<iterator kind="call" startline="700" startcolumn="46" />
+			<_repository.values kind="call" startline="700" startcolumn="25" />
+			<enum.hasNext kind="call" startline="701" startcolumn="15" />
+			<enum.next kind="call" startline="702" startcolumn="26" />
+			<comp.getClass kind="call" startline="705" startcolumn="28" />
+			<compclass.isAssignableFrom kind="call" startline="706" startcolumn="16" />
+			<selected.add kind="call" startline="707" startcolumn="17" />
+			<selected.size kind="call" startline="709" startcolumn="20" />
+			<selected.elementAt kind="call" startline="714" startcolumn="39" />
+		</fetchComponentsByClass>
+		<getDaemonID kind="method" startline="719" startcolumn="26" >
+			<toString kind="call" startline="722" startcolumn="46" />
+		</getDaemonID>
+		<getDaemonAddress kind="method" startline="726" startcolumn="26" >
+		</getDaemonAddress>
+		<getDaemonPort kind="method" startline="731" startcolumn="23" >
+		</getDaemonPort>
+		<generateUniqueID kind="method" startline="736" startcolumn="29" >
+			<component.getClass kind="call" startline="738" startcolumn="33" />
+			<component_class.getName kind="call" startline="739" startcolumn="29" />
+			<toString kind="call" startline="741" startcolumn="46" />
+			<System.currentTimeMillis kind="call" startline="742" startcolumn="38" />
+			<toString kind="call" startline="742" startcolumn="67" />
+			<component.setUniqueID kind="call" startline="746" startcolumn="9" />
+		</generateUniqueID>
+		<registerBytecode kind="method" startline="751" startcolumn="24" >
+			<Daemon._bytecode_repository.containsKey kind="call" startline="753" startcolumn="12" />
+			<Daemon._bytecode_repository.put kind="call" startline="756" startcolumn="9" />
+		</registerBytecode>
+		<unregisterBytecode kind="method" startline="759" startcolumn="27" >
+			<Daemon._bytecode_repository.containsKey kind="call" startline="761" startcolumn="14" />
+			<Daemon._bytecode_repository.remove kind="call" startline="763" startcolumn="9" />
+		</unregisterBytecode>
+		<fetchBytecode kind="method" startline="767" startcolumn="26" >
+			<Daemon._bytecode_repository.containsKey kind="call" startline="769" startcolumn="14" />
+			<Daemon._bytecode_repository.get kind="call" startline="772" startcolumn="31" />
+		</fetchBytecode>
+		<registerClass kind="method" startline="776" startcolumn="24" >
+			<System.out.println kind="call" startline="779" startcolumn="13" />
+			<System.out.println kind="call" startline="780" startcolumn="13" />
+			<Daemon._class_repository.contains kind="call" startline="783" startcolumn="12" />
+			<reg_class.getName kind="call" startline="785" startcolumn="21" />
+			<Daemon._class_repository.put kind="call" startline="786" startcolumn="9" />
+		</registerClass>
+		<unregisterClass kind="method" startline="789" startcolumn="27" >
+			<_class_repository.get kind="call" startline="791" startcolumn="35" />
+			<_class_repository.remove kind="call" startline="795" startcolumn="9" />
+		</unregisterClass>
+		<fetchClass kind="method" startline="803" startcolumn="25" >
+			<_class_repository.get kind="call" startline="811" startcolumn="33" />
+			<Class.forName kind="call" startline="813" startcolumn="29" />
+		</fetchClass>
+		<registerFile kind="method" startline="831" startcolumn="24" >
+			<vcontents.add kind="call" startline="835" startcolumn="13" />
+			<Daemon._file_repository.contains kind="call" startline="836" startcolumn="12" />
+			<Daemon._file_repository.put kind="call" startline="838" startcolumn="9" />
+		</registerFile>
+		<unregisterFile kind="method" startline="841" startcolumn="27" >
+			<_file_repository.get kind="call" startline="843" startcolumn="36" />
+			<_file_repository.remove kind="call" startline="846" startcolumn="9" />
+		</unregisterFile>
+		<fetchFile kind="method" startline="850" startcolumn="26" >
+			<_file_repository.get kind="call" startline="860" startcolumn="36" />
+			<reg_file.size kind="call" startline="864" startcolumn="41" />
+			<reg_file.size kind="call" startline="865" startcolumn="23" />
+			<reg_file.elementAt kind="call" startline="866" startcolumn="39" />
+			<byteValue kind="call" startline="866" startcolumn="62" />
+		</fetchFile>
+		<addPublicChannelSource kind="method" startline="890" startcolumn="19" >
+			<new_socket.getOutputStream kind="call" startline="899" startcolumn="31" />
+			<_public_channels_source.get kind="call" startline="903" startcolumn="37" />
+			<_public_channels_source.put kind="call" startline="907" startcolumn="17" />
+			<dos.writeBoolean kind="call" startline="908" startcolumn="17" />
+			<_public_channels_source.put kind="call" startline="917" startcolumn="17" />
+			<dos.writeBoolean kind="call" startline="918" startcolumn="17" />
+		</addPublicChannelSource>
+		<removePublicChannelsDest kind="method" startline="925" startcolumn="30" >
+			<_public_links.entrySet kind="call" startline="927" startcolumn="25" />
+			<link_set.iterator kind="call" startline="928" startcolumn="25" />
+			<iter.hasNext kind="call" startline="930" startcolumn="15" />
+			<iter.next kind="call" startline="931" startcolumn="48" />
+			<link_entry.getValue kind="call" startline="932" startcolumn="47" />
+			<link_components.contains kind="call" startline="933" startcolumn="19" />
+			<link_components.remove kind="call" startline="934" startcolumn="17" />
+		</removePublicChannelsDest>
+		<addPublicChannelDest kind="method" startline="948" startcolumn="19" >
+			<new_socket.getInputStream kind="call" startline="956" startcolumn="30" />
+			<_public_channels_dest.get kind="call" startline="960" startcolumn="43" />
+			<dis.readBoolean kind="call" startline="965" startcolumn="41" />
+			<System.out.println kind="call" startline="967" startcolumn="17" />
+			<socketthread.isAlive kind="call" startline="969" startcolumn="46" />
+			<socketthread.join kind="call" startline="970" startcolumn="21" />
+			<System.out.println kind="call" startline="971" startcolumn="21" />
+			<_public_channels_dest.put kind="call" startline="976" startcolumn="17" />
+			<System.out.println kind="call" startline="980" startcolumn="17" />
+			<System.out.println kind="call" startline="982" startcolumn="17" />
+			<_public_links.get kind="call" startline="990" startcolumn="40" />
+			<_public_links.put kind="call" startline="993" startcolumn="13" />
+			<link_entries.addElement kind="call" startline="996" startcolumn="9" />
+			<_source_address.put kind="call" startline="998" startcolumn="9" />
+		</addPublicChannelDest>
+		<removePublicConnectionSource kind="method" startline="1004" startcolumn="17" >
+			<_public_channels_source.keys kind="call" startline="1008" startcolumn="30" />
+			<ec.hasMoreElements kind="call" startline="1009" startcolumn="20" />
+			<ec.nextElement kind="call" startline="1010" startcolumn="57" />
+			<_public_channels_source.get kind="call" startline="1011" startcolumn="44" />
+			<su.socket.getOutputStream kind="call" startline="1015" startcolumn="47" />
+			<System.out.println kind="call" startline="1020" startcolumn="37" />
+			<_public_channels_source.remove kind="call" startline="1022" startcolumn="33" />
+			<dos.writeInt kind="call" startline="1025" startcolumn="33" />
+			<dos.flush kind="call" startline="1026" startcolumn="33" />
+			<dos.close kind="call" startline="1027" startcolumn="33" />
+			<System.out.println kind="call" startline="1037" startcolumn="25" />
+			<System.out.println kind="call" startline="1043" startcolumn="13" />
+		</removePublicConnectionSource>
+		<removePublicConnectionDest kind="method" startline="1047" startcolumn="17" >
+			<System.out.println kind="call" startline="1050" startcolumn="13" />
+			<_public_links.get kind="call" startline="1052" startcolumn="41" />
+			<link_entries.remove kind="call" startline="1057" startcolumn="9" />
+			<link_entries.size kind="call" startline="1060" startcolumn="13" />
+			<System.out.println kind="call" startline="1063" startcolumn="17" />
+			<_public_links.remove kind="call" startline="1065" startcolumn="13" />
+			<_source_address.remove kind="call" startline="1068" startcolumn="9" />
+		</removePublicConnectionDest>
+		<removeBrutalDeconnectionSource kind="method" startline="1071" startcolumn="17" >
+			<_public_channels_source.keys kind="call" startline="1074" startcolumn="31" />
+			<ec.hasMoreElements kind="call" startline="1075" startcolumn="19" />
+			<ec.nextElement kind="call" startline="1076" startcolumn="48" />
+			<_public_channels_source.get kind="call" startline="1077" startcolumn="44" />
+			<_public_channels_source.remove kind="call" startline="1079" startcolumn="21" />
+		</removeBrutalDeconnectionSource>
+		<updateChannelType kind="method" startline="1094" startcolumn="24" >
+			<address.equals kind="call" startline="1100" startcolumn="13" />
+			<Daemon.getDaemonAddress kind="call" startline="1101" startcolumn="27" />
+			<Daemon.getDaemonAddress kind="call" startline="1107" startcolumn="36" />
+			<new_address.equals kind="call" startline="1107" startcolumn="17" />
+			<Daemon.getDaemonPort kind="call" startline="1107" startcolumn="77" />
+			<Daemon.getDaemonAddress kind="call" startline="1112" startcolumn="36" />
+			<new_address.equals kind="call" startline="1112" startcolumn="17" />
+			<Daemon.getDaemonPort kind="call" startline="1112" startcolumn="77" />
+			<System.out.println kind="call" startline="1121" startcolumn="9" />
+		</updateChannelType>
+		<getNumberOfComponentInforme kind="method" startline="1129" startcolumn="16" >
+			<_number_of_connecting_component.get kind="call" startline="1131" startcolumn="27" />
+			<intValue kind="call" startline="1131" startcolumn="68" />
+		</getNumberOfComponentInforme>
+		<addNewComponentInforme kind="method" startline="1138" startcolumn="17" >
+			<_number_of_connecting_component.get kind="call" startline="1141" startcolumn="34" />
+			<intValue kind="call" startline="1141" startcolumn="75" />
+			<_number_of_connecting_component.put kind="call" startline="1143" startcolumn="13" />
+		</addNewComponentInforme>
+		<addNewComponentInforme kind="method" startline="1149" startcolumn="17" >
+			<_number_of_connecting_component.get kind="call" startline="1152" startcolumn="34" />
+			<intValue kind="call" startline="1152" startcolumn="75" />
+			<_number_of_connecting_component.put kind="call" startline="1154" startcolumn="13" />
+		</addNewComponentInforme>
+		<migrationSourceInitialisation kind="method" startline="1165" startcolumn="17" >
+			<_migrate_to.put kind="call" startline="1168" startcolumn="13" />
+			<_number_of_connecting_component.put kind="call" startline="1169" startcolumn="13" />
+			<_migration_repository.put kind="call" startline="1170" startcolumn="13" />
+			<unregisterComponent kind="call" startline="1171" startcolumn="13" />
+		</migrationSourceInitialisation>
+		<cleanMigrationSourceRegistery kind="method" startline="1178" startcolumn="17" >
+			<_migrate_to.remove kind="call" startline="1180" startcolumn="9" />
+			<_migration_repository.remove kind="call" startline="1181" startcolumn="9" />
+			<_number_of_connecting_component.remove kind="call" startline="1182" startcolumn="9" />
+		</cleanMigrationSourceRegistery>
+		<migrationDestInitialisation kind="method" startline="1186" startcolumn="17" >
+			<_connected_by.put kind="call" startline="1188" startcolumn="9" />
+			<_migration_repository.put kind="call" startline="1189" startcolumn="9" />
+		</migrationDestInitialisation>
+		<cleanMigrationDestRegistery kind="method" startline="1192" startcolumn="17" >
+			<_migration_repository.remove kind="call" startline="1194" startcolumn="38" />
+			<_connected_by.remove kind="call" startline="1195" startcolumn="9" />
+			<Daemon._repository.put kind="call" startline="1196" startcolumn="9" />
+		</cleanMigrationDestRegistery>
+		<addConnectedBy kind="method" startline="1200" startcolumn="17" >
+			<local_id.equals kind="call" startline="1205" startcolumn="13" />
+			<_connected_by.get kind="call" startline="1208" startcolumn="31" />
+			<who.add kind="call" startline="1211" startcolumn="13" />
+			<who.contains kind="call" startline="1214" startcolumn="14" />
+			<who.add kind="call" startline="1215" startcolumn="13" />
+		</addConnectedBy>
+		<noMoreWait kind="method" startline="1218" startcolumn="20" >
+			<_connected_by.get kind="call" startline="1220" startcolumn="38" />
+			<connect_by.elements kind="call" startline="1222" startcolumn="26" />
+			<ec.hasMoreElements kind="call" startline="1223" startcolumn="16" />
+			<ec.nextElement kind="call" startline="1224" startcolumn="37" />
+			<connect_by.size kind="call" startline="1226" startcolumn="17" />
+		</noMoreWait>
+		<informeConnectionSource kind="method" startline="1235" startcolumn="16" >
+			<System.out.println kind="call" startline="1238" startcolumn="13" />
+			<getDaemonAddress kind="call" startline="1241" startcolumn="34" />
+			<source_address.equals kind="call" startline="1241" startcolumn="12" />
+			<getDaemonPort kind="call" startline="1241" startcolumn="73" />
+			<Daemon.fetchComponent kind="call" startline="1242" startcolumn="31" />
+			<System.err.println kind="call" startline="1244" startcolumn="17" />
+			<local.changePhysicalLink kind="call" startline="1247" startcolumn="23" />
+			<System.out.println kind="call" startline="1253" startcolumn="17" />
+			<establishConnection kind="call" startline="1254" startcolumn="29" />
+			<socket.getOutputStream kind="call" startline="1256" startcolumn="31" />
+			<socket.getInputStream kind="call" startline="1258" startcolumn="30" />
+			<dos.writeUTF kind="call" startline="1262" startcolumn="13" />
+			<dos.writeUTF kind="call" startline="1263" startcolumn="13" />
+			<dos.writeUTF kind="call" startline="1264" startcolumn="13" />
+			<dos.writeInt kind="call" startline="1265" startcolumn="13" />
+			<dis.readInt kind="call" startline="1269" startcolumn="20" />
+		</informeConnectionSource>
+		<coreMigrateComponent kind="method" startline="1293" startcolumn="19" >
+			<local.isInitialized kind="call" startline="1298" startcolumn="14" />
+			<System.out.println kind="call" startline="1299" startcolumn="13" />
+			<local.initialize kind="call" startline="1300" startcolumn="13" />
+			<local.suspendActivity kind="call" startline="1304" startcolumn="9" />
+			<local.beforeMigrate kind="call" startline="1306" startcolumn="9" />
+			<establishConnection kind="call" startline="1308" startcolumn="25" />
+			<socket.getInputStream kind="call" startline="1309" startcolumn="26" />
+			<socket.getOutputStream kind="call" startline="1311" startcolumn="27" />
+			<local.sendState kind="call" startline="1315" startcolumn="9" />
+			<local.getUniqueID kind="call" startline="1319" startcolumn="22" />
+			<oos.writeUTF kind="call" startline="1319" startcolumn="9" />
+			<local.getRoles kind="call" startline="1324" startcolumn="24" />
+			<oos.writeObject kind="call" startline="1330" startcolumn="9" />
+			<dis.readBoolean kind="call" startline="1333" startcolumn="13" />
+			<System.out.println kind="call" startline="1334" startcolumn="13" />
+			<comp.getUniqueID kind="call" startline="1338" startcolumn="39" />
+			<migrationSourceInitialisation kind="call" startline="1338" startcolumn="9" />
+			<local.getSourceLinkKey kind="call" startline="1344" startcolumn="25" />
+			<oos.writeObject kind="call" startline="1346" startcolumn="9" />
+			<System.out.println kind="call" startline="1349" startcolumn="13" />
+			<local.waitStopSending kind="call" startline="1352" startcolumn="9" />
+			<local.getDestConnection kind="call" startline="1361" startcolumn="35" />
+			<connections_dest.elements kind="call" startline="1365" startcolumn="30" />
+			<connections_dest.size kind="call" startline="1366" startcolumn="30" />
+			<connections_dest.get kind="call" startline="1367" startcolumn="42" />
+			<System.out.println kind="call" startline="1368" startcolumn="17" />
+			<local.removeSourceConnection kind="call" startline="1370" startcolumn="17" />
+			<oos.writeObject kind="call" startline="1376" startcolumn="9" />
+			<oos.flush kind="call" startline="1378" startcolumn="9" />
+			<System.out.println kind="call" startline="1381" startcolumn="13" />
+			<local.getUniqueID kind="call" startline="1389" startcolumn="83" />
+			<getDaemonAddress kind="call" startline="1389" startcolumn="104" />
+			<getDaemonPort kind="call" startline="1389" startcolumn="124" />
+			<local.getUniqueID kind="call" startline="1389" startcolumn="141" />
+			<bindMigrateComponentEvent kind="call" startline="1389" startcolumn="30" />
+			<local.Metamorphose kind="call" startline="1393" startcolumn="9" />
+		</coreMigrateComponent>
+		<waitForReconnection kind="method" startline="1401" startcolumn="27" >
+			<_migration_socket.getInputStream kind="call" startline="1405" startcolumn="26" />
+			<_migration_socket.getOutputStream kind="call" startline="1407" startcolumn="27" />
+			<System.out.println kind="call" startline="1411" startcolumn="13" />
+			<Thread.currentThread kind="call" startline="1412" startcolumn="13" />
+			<dumpStack kind="call" startline="1412" startcolumn="36" />
+			<Thread.currentThread kind="call" startline="1412" startcolumn="13" />
+			<local.getSourceConnection kind="call" startline="1418" startcolumn="36" />
+			<connection_source.elements kind="call" startline="1419" startcolumn="26" />
+			<ec.hasMoreElements kind="call" startline="1421" startcolumn="16" />
+			<ec.nextElement kind="call" startline="1422" startcolumn="64" />
+			<System.out.println kind="call" startline="1423" startcolumn="13" />
+			<local.getUniqueID kind="call" startline="1425" startcolumn="85" />
+			<Daemon.informeConnectionSource kind="call" startline="1425" startcolumn="23" />
+			<local.getUniqueID kind="call" startline="1427" startcolumn="43" />
+			<Daemon.addNewComponentInforme kind="call" startline="1427" startcolumn="13" />
+			<local.noMoreWait kind="call" startline="1431" startcolumn="17" />
+			<System.out.println kind="call" startline="1433" startcolumn="17" />
+			<sleep kind="call" startline="1434" startcolumn="13" />
+			<local.getUniqueID kind="call" startline="1438" startcolumn="50" />
+			<getNumberOfComponentInforme kind="call" startline="1438" startcolumn="22" />
+			<dos.writeInt kind="call" startline="1438" startcolumn="9" />
+			<local.getUniqueID kind="call" startline="1441" startcolumn="95" />
+			<getNumberOfComponentInforme kind="call" startline="1441" startcolumn="67" />
+			<System.out.println kind="call" startline="1441" startcolumn="13" />
+			<local.getUniqueID kind="call" startline="1444" startcolumn="39" />
+			<cleanMigrationSourceRegistery kind="call" startline="1444" startcolumn="9" />
+			<local.terminate kind="call" startline="1446" startcolumn="9" />
+			<System.out.println kind="call" startline="1450" startcolumn="13" />
+			<dis.readBoolean kind="call" startline="1455" startcolumn="19" />
+			<System.err.println kind="call" startline="1458" startcolumn="13" />
+			<_migration_socket.getPort kind="call" startline="1459" startcolumn="45" />
+			<System.err.println kind="call" startline="1459" startcolumn="13" />
+			<_migration_socket.getRemoteSocketAddress kind="call" startline="1460" startcolumn="45" />
+			<System.err.println kind="call" startline="1460" startcolumn="13" />
+			<e.printStackTrace kind="call" startline="1461" startcolumn="13" />
+			<System.out.println kind="call" startline="1465" startcolumn="13" />
+		</waitForReconnection>
+		<migrateComponent kind="method" startline="1475" startcolumn="24" >
+			<source_address.equals kind="call" startline="1478" startcolumn="13" />
+			<Daemon.getDaemonAddress kind="call" startline="1482" startcolumn="34" />
+			<source_address.equals kind="call" startline="1482" startcolumn="12" />
+			<Daemon.getDaemonPort kind="call" startline="1482" startcolumn="77" />
+			<System.out.println kind="call" startline="1485" startcolumn="17" />
+			<Daemon.fetchComponent kind="call" startline="1486" startcolumn="32" />
+			<Daemon.fetchComponent kind="call" startline="1491" startcolumn="26" />
+			<source.isMigrable kind="call" startline="1494" startcolumn="21" />
+			<Daemon.coreMigrateComponent kind="call" startline="1496" startcolumn="37" />
+			<Daemon.waitForReconnection kind="call" startline="1504" startcolumn="13" />
+			<System.out.println kind="call" startline="1507" startcolumn="17" />
+			<System.out.println kind="call" startline="1512" startcolumn="13" />
+			<establishConnection kind="call" startline="1514" startcolumn="29" />
+			<socket.getOutputStream kind="call" startline="1517" startcolumn="31" />
+			<socket.getInputStream kind="call" startline="1519" startcolumn="30" />
+			<dos.writeUTF kind="call" startline="1523" startcolumn="13" />
+			<dos.writeUTF kind="call" startline="1524" startcolumn="13" />
+			<dos.writeInt kind="call" startline="1525" startcolumn="13" />
+			<System.out.println kind="call" startline="1527" startcolumn="13" />
+			<dis.readBoolean kind="call" startline="1528" startcolumn="18" />
+			<System.out.println kind="call" startline="1530" startcolumn="13" />
+			<System.out.println kind="call" startline="1531" startcolumn="13" />
+			<dis.readBoolean kind="call" startline="1533" startcolumn="18" />
+			<System.out.println kind="call" startline="1535" startcolumn="13" />
+			<System.out.println kind="call" startline="1536" startcolumn="13" />
+			<dis.readBoolean kind="call" startline="1538" startcolumn="18" />
+			<System.out.println kind="call" startline="1540" startcolumn="13" />
+		</migrateComponent>
+		<getDestComponents kind="method" startline="1544" startcolumn="19" >
+			<event.getSenderId kind="call" startline="1546" startcolumn="28" />
+			<_public_links.get kind="call" startline="1547" startcolumn="40" />
+		</getDestComponents>
+		<bindComonent kind="method" startline="1780" startcolumn="24" >
+			<_repository.put kind="call" startline="1782" startcolumn="9" />
+		</bindComonent>
+</Daemon>
+<DaemonClassLoader kind="class" startline="27" startcolumn="7">
+		<DaemonClassLoader kind="method" startline="29" startcolumn="5" >
+		</DaemonClassLoader>
+		<loadClass kind="method" startline="35" startcolumn="31" >
+			<findLoadedClass kind="call" startline="37" startcolumn="19" />
+			<findSystemClass kind="call" startline="41" startcolumn="17" />
+			<getClassData kind="call" startline="47" startcolumn="27" />
+			<defineClass kind="call" startline="48" startcolumn="20" />
+		</loadClass>
+		<installClass kind="method" startline="54" startcolumn="31" >
+			<findLoadedClass kind="call" startline="57" startcolumn="19" />
+			<findSystemClass kind="call" startline="61" startcolumn="17" />
+			<defineClass kind="call" startline="67" startcolumn="20" />
+		</installClass>
+		<getClassData kind="method" startline="73" startcolumn="20" >
+			<f.available kind="call" startline="83" startcolumn="28" />
+			<f.read kind="call" startline="85" startcolumn="13" />
+		</getClassData>
+</DaemonClassLoader>
+<DaemonRequest kind="class" startline="33" startcolumn="14">
+		<DaemonRequest kind="method" startline="48" startcolumn="12" >
+			<_socket.getInputStream kind="call" startline="56" startcolumn="26" />
+			<_socket.getOutputStream kind="call" startline="57" startcolumn="27" />
+			<System.err.println kind="call" startline="59" startcolumn="13" />
+		</DaemonRequest>
+		<run kind="method" startline="66" startcolumn="17" >
+			<dis.readByte kind="call" startline="79" startcolumn="27" />
+			<e.toString kind="call" startline="82" startcolumn="36" />
+			<System.err.println kind="call" startline="82" startcolumn="17" />
+			<System.err.println kind="call" startline="93" startcolumn="29" />
+			<SendComponentServer.receiveComponent kind="call" startline="94" startcolumn="25" />
+			<t.getMessage kind="call" startline="97" startcolumn="44" />
+			<System.err.println kind="call" startline="97" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="98" startcolumn="25" />
+			<System.err.println kind="call" startline="106" startcolumn="29" />
+			<InstantiateComponentServer.instantiateComponent kind="call" startline="107" startcolumn="25" />
+			<t.getMessage kind="call" startline="109" startcolumn="44" />
+			<System.err.println kind="call" startline="109" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="110" startcolumn="25" />
+			<System.err.println kind="call" startline="118" startcolumn="29" />
+			<ConnectProtocolServer.connectComponentSource kind="call" startline="119" startcolumn="25" />
+			<t.getMessage kind="call" startline="122" startcolumn="44" />
+			<System.err.println kind="call" startline="122" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="123" startcolumn="25" />
+			<System.err.println kind="call" startline="131" startcolumn="29" />
+			<ConnectProtocolServer.connectComponentDest kind="call" startline="132" startcolumn="25" />
+			<t.getMessage kind="call" startline="135" startcolumn="44" />
+			<System.err.println kind="call" startline="135" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="136" startcolumn="25" />
+			<System.err.println kind="call" startline="148" startcolumn="29" />
+			<ConnectProtocolServer.bindEvent kind="call" startline="149" startcolumn="25" />
+			<t.getMessage kind="call" startline="151" startcolumn="44" />
+			<System.err.println kind="call" startline="151" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="152" startcolumn="25" />
+			<System.err.println kind="call" startline="160" startcolumn="29" />
+			<AssignRoleServer.assignRole kind="call" startline="161" startcolumn="25" />
+			<t.getMessage kind="call" startline="163" startcolumn="44" />
+			<System.err.println kind="call" startline="163" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="164" startcolumn="25" />
+			<System.err.println kind="call" startline="172" startcolumn="29" />
+			<SystemEventProtocolServer.systemevent kind="call" startline="173" startcolumn="25" />
+			<t.getMessage kind="call" startline="175" startcolumn="44" />
+			<System.err.println kind="call" startline="175" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="176" startcolumn="25" />
+			<System.err.println kind="call" startline="184" startcolumn="29" />
+			<findComponent kind="call" startline="185" startcolumn="25" />
+			<t.getMessage kind="call" startline="187" startcolumn="44" />
+			<System.err.println kind="call" startline="187" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="188" startcolumn="25" />
+			<System.err.println kind="call" startline="196" startcolumn="29" />
+			<pingDaemon kind="call" startline="197" startcolumn="25" />
+			<t.getMessage kind="call" startline="199" startcolumn="44" />
+			<System.err.println kind="call" startline="199" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="200" startcolumn="25" />
+			<System.err.println kind="call" startline="208" startcolumn="29" />
+			<RequestClassServer.requestClass kind="call" startline="209" startcolumn="25" />
+			<t.getMessage kind="call" startline="211" startcolumn="44" />
+			<System.err.println kind="call" startline="211" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="212" startcolumn="25" />
+			<System.err.println kind="call" startline="220" startcolumn="29" />
+			<DisconnectProtocolServer.removeConnection kind="call" startline="221" startcolumn="25" />
+			<System.err.println kind="call" startline="232" startcolumn="29" />
+			<RemoveComponentServer.removeComponent kind="call" startline="233" startcolumn="25" />
+			<System.err.println kind="call" startline="244" startcolumn="29" />
+			<RemoveComponentServer.disconnectComponent kind="call" startline="245" startcolumn="25" />
+			<System.err.println kind="call" startline="256" startcolumn="29" />
+			<DisconnectProtocolServer.removeAllConnections kind="call" startline="257" startcolumn="25" />
+			<System.err.println kind="call" startline="268" startcolumn="29" />
+			<unregister kind="call" startline="269" startcolumn="25" />
+			<t.getMessage kind="call" startline="271" startcolumn="44" />
+			<System.err.println kind="call" startline="271" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="272" startcolumn="25" />
+			<System.out.println kind="call" startline="280" startcolumn="29" />
+			<migrateComponent kind="call" startline="281" startcolumn="25" />
+			<System.out.println kind="call" startline="283" startcolumn="29" />
+			<t.getMessage kind="call" startline="285" startcolumn="44" />
+			<System.err.println kind="call" startline="285" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="286" startcolumn="25" />
+			<System.err.println kind="call" startline="294" startcolumn="29" />
+			<receiveMigrateComponent kind="call" startline="295" startcolumn="25" />
+			<t.getMessage kind="call" startline="297" startcolumn="44" />
+			<System.err.println kind="call" startline="297" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="298" startcolumn="25" />
+			<System.err.println kind="call" startline="306" startcolumn="25" />
+			<changePhysicalLink kind="call" startline="307" startcolumn="25" />
+			<t.getMessage kind="call" startline="309" startcolumn="44" />
+			<System.err.println kind="call" startline="309" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="310" startcolumn="25" />
+			<Thread.currentThread kind="call" startline="318" startcolumn="98" />
+			<getName kind="call" startline="318" startcolumn="121" />
+			<Thread.currentThread kind="call" startline="318" startcolumn="98" />
+			<System.err.println kind="call" startline="318" startcolumn="29" />
+			<bindMigrateComponentEvent kind="call" startline="321" startcolumn="25" />
+			<System.err.println kind="call" startline="324" startcolumn="29" />
+			<t.getMessage kind="call" startline="327" startcolumn="44" />
+			<System.err.println kind="call" startline="327" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="328" startcolumn="25" />
+			<System.err.println kind="call" startline="336" startcolumn="29" />
+			<bindAfterMigrationEvent kind="call" startline="337" startcolumn="25" />
+			<t.getMessage kind="call" startline="339" startcolumn="44" />
+			<System.err.println kind="call" startline="339" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="340" startcolumn="25" />
+			<System.out.println kind="call" startline="347" startcolumn="25" />
+			<System.err.println kind="call" startline="352" startcolumn="25" />
+			<System.err.println kind="call" startline="357" startcolumn="25" />
+			<t.printStackTrace kind="call" startline="362" startcolumn="17" />
+		</run>
+		<bindMigrateComponentEvent kind="method" startline="371" startcolumn="10" >
+			<System.out.println kind="call" startline="374" startcolumn="13" />
+			<Thread.currentThread kind="call" startline="375" startcolumn="13" />
+			<dumpStack kind="call" startline="375" startcolumn="36" />
+			<Thread.currentThread kind="call" startline="375" startcolumn="13" />
+			<dos.writeByte kind="call" startline="386" startcolumn="13" />
+			<dis.readByte kind="call" startline="389" startcolumn="33" />
+			<dis.readUTF kind="call" startline="392" startcolumn="32" />
+			<dis.readUTF kind="call" startline="395" startcolumn="30" />
+			<System.out.println kind="call" startline="398" startcolumn="17" />
+			<dis.readInt kind="call" startline="401" startcolumn="24" />
+			<dis.readUTF kind="call" startline="404" startcolumn="31" />
+			<dis.readUTF kind="call" startline="407" startcolumn="33" />
+			<Daemon.fetchMigrateComponent kind="call" startline="410" startcolumn="31" />
+			<sleep kind="call" startline="413" startcolumn="17" />
+			<Daemon.fetchMigrateComponent kind="call" startline="415" startcolumn="25" />
+			<System.err.println kind="call" startline="420" startcolumn="17" />
+			<dos.writeBoolean kind="call" startline="421" startcolumn="17" />
+			<dos.writeBoolean kind="call" startline="429" startcolumn="13" />
+			<Daemon.addPublicChannelDest kind="call" startline="432" startcolumn="27" />
+			<System.out.println kind="call" startline="435" startcolumn="17" />
+			<local.bindEventDest kind="call" startline="437" startcolumn="13" />
+			<Daemon.addConnectedBy kind="call" startline="438" startcolumn="13" />
+			<t.getMessage kind="call" startline="441" startcolumn="32" />
+			<System.err.println kind="call" startline="441" startcolumn="13" />
+		</bindMigrateComponentEvent>
+		<giveNewAddress kind="method" startline="447" startcolumn="10" >
+			<dos.writeBoolean kind="call" startline="449" startcolumn="9" />
+			<Daemon.getNewAddress kind="call" startline="450" startcolumn="43" />
+			<dos.writeUTF kind="call" startline="453" startcolumn="13" />
+			<dos.writeInt kind="call" startline="454" startcolumn="13" />
+			<Daemon.fetchMigrateComponent kind="call" startline="455" startcolumn="31" />
+			<System.out.println kind="call" startline="456" startcolumn="13" />
+			<Daemon.addNewComponentInforme kind="call" startline="457" startcolumn="13" />
+			<transferLink kind="call" startline="458" startcolumn="39" />
+			<System.err.println kind="call" startline="462" startcolumn="9" />
+		</giveNewAddress>
+		<bindAfterMigrationEvent kind="method" startline="469" startcolumn="10" >
+			<dos.writeByte kind="call" startline="477" startcolumn="9" />
+			<dis.readUTF kind="call" startline="480" startcolumn="27" />
+			<dis.readUTF kind="call" startline="483" startcolumn="29" />
+			<dis.readUTF kind="call" startline="486" startcolumn="28" />
+			<ConnectProtocolCore.coreBindCheckDest kind="call" startline="491" startcolumn="27" />
+			<giveNewAddress kind="call" startline="494" startcolumn="13" />
+			<Daemon.fetchComponent kind="call" startline="498" startcolumn="21" />
+			<giveNewAddress kind="call" startline="502" startcolumn="17" />
+			<local.transferLink kind="call" startline="508" startcolumn="13" />
+			<Daemon.addConnectedBy kind="call" startline="509" startcolumn="13" />
+			<dos.writeBoolean kind="call" startline="511" startcolumn="13" />
+			<dis.readByte kind="call" startline="514" startcolumn="33" />
+			<dis.readUTF kind="call" startline="517" startcolumn="30" />
+			<dis.readInt kind="call" startline="520" startcolumn="24" />
+			<Daemon.addPublicChannelDest kind="call" startline="523" startcolumn="27" />
+			<local.bindEventDest kind="call" startline="527" startcolumn="13" />
+		</bindAfterMigrationEvent>
+		<findComponent kind="method" startline="531" startcolumn="10" >
+			<dos.writeByte kind="call" startline="540" startcolumn="9" />
+			<dis.readUTF kind="call" startline="543" startcolumn="33" />
+			<System.err.println kind="call" startline="544" startcolumn="9" />
+			<Daemon.coreFindComponent kind="call" startline="547" startcolumn="24" />
+			<System.err.println kind="call" startline="551" startcolumn="13" />
+			<dos.writeInt kind="call" startline="552" startcolumn="13" />
+			<Integer.toString kind="call" startline="557" startcolumn="79" />
+			<System.err.println kind="call" startline="557" startcolumn="9" />
+			<dos.writeInt kind="call" startline="558" startcolumn="9" />
+			<dos.writeUTF kind="call" startline="562" startcolumn="13" />
+		</findComponent>
+		<pingDaemon kind="method" startline="566" startcolumn="10" >
+			<dos.writeByte kind="call" startline="571" startcolumn="9" />
+			<dos.writeBoolean kind="call" startline="573" startcolumn="9" />
+		</pingDaemon>
+		<unregister kind="method" startline="576" startcolumn="10" >
+			<dos.writeByte kind="call" startline="584" startcolumn="9" />
+			<dis.readUTF kind="call" startline="586" startcolumn="23" />
+			<dis.readInt kind="call" startline="588" startcolumn="20" />
+			<Daemon.unregister kind="call" startline="589" startcolumn="25" />
+			<dos.writeBoolean kind="call" startline="591" startcolumn="9" />
+		</unregister>
+		<migrateComponent kind="method" startline="597" startcolumn="10" >
+			<dos.writeByte kind="call" startline="608" startcolumn="9" />
+			<dis.readUTF kind="call" startline="611" startcolumn="28" />
+			<dis.readUTF kind="call" startline="612" startcolumn="31" />
+			<dis.readInt kind="call" startline="613" startcolumn="25" />
+			<Daemon.fetchComponent kind="call" startline="616" startcolumn="28" />
+			<dos.writeBoolean kind="call" startline="619" startcolumn="13" />
+			<Daemon.fetchComponent kind="call" startline="625" startcolumn="22" />
+			<dos.writeBoolean kind="call" startline="628" startcolumn="17" />
+			<dos.writeBoolean kind="call" startline="633" startcolumn="13" />
+			<source.isMigrable kind="call" startline="636" startcolumn="18" />
+			<dos.writeBoolean kind="call" startline="637" startcolumn="17" />
+			<dos.writeBoolean kind="call" startline="640" startcolumn="13" />
+			<Daemon.coreMigrateComponent kind="call" startline="651" startcolumn="33" />
+			<System.out.println kind="call" startline="655" startcolumn="13" />
+			<Daemon.waitForReconnection kind="call" startline="657" startcolumn="26" />
+			<dos.writeBoolean kind="call" startline="660" startcolumn="9" />
+			<dos.flush kind="call" startline="661" startcolumn="9" />
+			<System.out.println kind="call" startline="662" startcolumn="9" />
+		</migrateComponent>
+		<receiveMigrateComponent kind="method" startline="670" startcolumn="10" >
+			<dos.writeByte kind="call" startline="680" startcolumn="9" />
+			<System.out.println kind="call" startline="683" startcolumn="13" />
+			<cis.readObject kind="call" startline="690" startcolumn="52" />
+			<cis.readUTF kind="call" startline="699" startcolumn="21" />
+			<local.setUniqueID kind="call" startline="700" startcolumn="9" />
+			<System.out.println kind="call" startline="703" startcolumn="13" />
+			<local.afterMigrate kind="call" startline="706" startcolumn="9" />
+			<System.out.println kind="call" startline="709" startcolumn="13" />
+			<cis.readObject kind="call" startline="712" startcolumn="33" />
+			<roles.elements kind="call" startline="714" startcolumn="30" />
+			<ec.hasMoreElements kind="call" startline="715" startcolumn="20" />
+			<ec.nextElement kind="call" startline="716" startcolumn="45" />
+			<local.assignRole kind="call" startline="716" startcolumn="17" />
+			<System.out.println kind="call" startline="721" startcolumn="13" />
+			<Daemon.migrationDestInitialisation kind="call" startline="723" startcolumn="9" />
+			<System.out.println kind="call" startline="726" startcolumn="13" />
+			<dos.writeBoolean kind="call" startline="729" startcolumn="9" />
+			<cis.readObject kind="call" startline="733" startcolumn="34" />
+			<System.out.println kind="call" startline="736" startcolumn="13" />
+			<local.setBuffer kind="call" startline="737" startcolumn="13" />
+			<System.out.println kind="call" startline="740" startcolumn="13" />
+			<System.out.println kind="call" startline="744" startcolumn="13" />
+			<cis.readObject kind="call" startline="748" startcolumn="55" />
+			<System.out.println kind="call" startline="752" startcolumn="13" />
+			<dest_connections_definition.elements kind="call" startline="755" startcolumn="30" />
+			<ec.hasMoreElements kind="call" startline="756" startcolumn="19" />
+			<ec.nextElement kind="call" startline="757" startcolumn="41" />
+			<Daemon.updateChannelType kind="call" startline="758" startcolumn="37" />
+			<local.reConnectComponent kind="call" startline="760" startcolumn="17" />
+			<local.restart kind="call" startline="768" startcolumn="9" />
+			<System.out.println kind="call" startline="774" startcolumn="13" />
+			<dis.readInt kind="call" startline="776" startcolumn="36" />
+			<System.out.println kind="call" startline="779" startcolumn="13" />
+			<Daemon.noMoreWait kind="call" startline="781" startcolumn="17" />
+			<sleep kind="call" startline="782" startcolumn="13" />
+			<System.out.println kind="call" startline="785" startcolumn="13" />
+			<Daemon.cleanMigrationDestRegistery kind="call" startline="787" startcolumn="9" />
+			<System.out.println kind="call" startline="790" startcolumn="13" />
+			<dos.writeBoolean kind="call" startline="792" startcolumn="9" />
+		</receiveMigrateComponent>
+		<changePhysicalLink kind="method" startline="800" startcolumn="10" >
+			<dos.writeByte kind="call" startline="809" startcolumn="9" />
+			<dis.readUTF kind="call" startline="813" startcolumn="27" />
+			<dis.readUTF kind="call" startline="814" startcolumn="29" />
+			<dis.readUTF kind="call" startline="815" startcolumn="30" />
+			<dis.readInt kind="call" startline="816" startcolumn="24" />
+			<Daemon.fetchComponent kind="call" startline="819" startcolumn="27" />
+			<dos.writeInt kind="call" startline="823" startcolumn="13" />
+			<Daemon.fetchComponent kind="call" startline="828" startcolumn="21" />
+			<dos.writeInt kind="call" startline="831" startcolumn="17" />
+			<local.changePhysicalLink kind="call" startline="836" startcolumn="26" />
+			<dos.writeInt kind="call" startline="836" startcolumn="13" />
+		</changePhysicalLink>
+</DaemonRequest>
+<DefaultComponent kind="class" startline="30" startcolumn="23">
+		<remove kind="method" startline="49" startcolumn="30" >
+		</remove>
+		<sendEvent kind="method" startline="62" startcolumn="31" >
+			<event.setReceiverId kind="call" startline="65" startcolumn="9" />
+			<_meta_out_queue.queue kind="call" startline="66" startcolumn="9" />
+		</sendEvent>
+		<sendEvent kind="method" startline="69" startcolumn="32" >
+			<event.setReceiverId kind="call" startline="72" startcolumn="9" />
+			<_meta_out_queue.queue kind="call" startline="73" startcolumn="9" />
+		</sendEvent>
+		<receiveEvent kind="method" startline="80" startcolumn="10" >
+			<_meta_receive.handleEvent kind="call" startline="83" startcolumn="13" />
+			<e.printStackTrace kind="call" startline="86" startcolumn="13" />
+		</receiveEvent>
+		<getConnectedSource kind="method" startline="90" startcolumn="29" >
+			<_meta_receive.getConnectedSource kind="call" startline="92" startcolumn="16" />
+		</getConnectedSource>
+		<bindEventSource kind="method" startline="96" startcolumn="10" >
+			<isInitialized kind="call" startline="101" startcolumn="13" />
+			<initialize kind="call" startline="101" startcolumn="35" />
+			<_meta_send.existDest kind="call" startline="104" startcolumn="25" />
+			<getUniqueID kind="call" startline="108" startcolumn="41" />
+			<Daemon.getDaemonAddress kind="call" startline="109" startcolumn="41" />
+			<Daemon.getDaemonPort kind="call" startline="110" startcolumn="35" />
+			<ConnectProtocolClient.bindEvent kind="call" startline="113" startcolumn="21" />
+			<System.out.println kind="call" startline="116" startcolumn="17" />
+			<t.getMessage kind="call" startline="117" startcolumn="59" />
+			<System.err.println kind="call" startline="117" startcolumn="17" />
+			<t.printStackTrace kind="call" startline="118" startcolumn="17" />
+			<Daemon.fetchComponent kind="call" startline="124" startcolumn="24" />
+			<_meta_send.addConnection kind="call" startline="134" startcolumn="13" />
+			<_meta_send.addConnection kind="call" startline="136" startcolumn="13" />
+		</bindEventSource>
+		<changePhysicalLink kind="method" startline="144" startcolumn="16" >
+			<_meta_send.getComponentLinkType kind="call" startline="149" startcolumn="23" />
+			<link.elements kind="call" startline="152" startcolumn="26" />
+			<ec.hasMoreElements kind="call" startline="155" startcolumn="15" />
+			<ec.nextElement kind="call" startline="157" startcolumn="38" />
+			<Daemon.updateChannelType kind="call" startline="160" startcolumn="37" />
+			<getUniqueID kind="call" startline="162" startcolumn="93" />
+			<Daemon.getDaemonAddress kind="call" startline="162" startcolumn="108" />
+			<Daemon.getDaemonPort kind="call" startline="162" startcolumn="135" />
+			<Daemon.bindMigrateComponentEvent kind="call" startline="162" startcolumn="26" />
+			<Daemon.fetchMigrateComponent kind="call" startline="168" startcolumn="30" />
+			<_meta_send.changePhysicalLink kind="call" startline="172" startcolumn="13" />
+			<link.size kind="call" startline="174" startcolumn="16" />
+		</changePhysicalLink>
+		<bindEventDest kind="method" startline="180" startcolumn="10" >
+			<System.out.println kind="call" startline="183" startcolumn="13" />
+			<Thread.currentThread kind="call" startline="184" startcolumn="13" />
+			<dumpStack kind="call" startline="184" startcolumn="36" />
+			<Thread.currentThread kind="call" startline="184" startcolumn="13" />
+			<isInitialized kind="call" startline="187" startcolumn="13" />
+			<initialize kind="call" startline="188" startcolumn="18" />
+			<_meta_receive.addActiveConnection kind="call" startline="192" startcolumn="13" />
+			<_meta_receive.addPassiveConnection kind="call" startline="194" startcolumn="13" />
+		</bindEventDest>
+		<removeSourceConnection kind="method" startline="198" startcolumn="17" >
+			<_meta_send.removeConnection kind="call" startline="200" startcolumn="9" />
+		</removeSourceConnection>
+		<removeSourceConnection kind="method" startline="203" startcolumn="17" >
+			<removeSourceConnection kind="call" startline="205" startcolumn="9" />
+		</removeSourceConnection>
+		<removeDestConnection kind="method" startline="208" startcolumn="10" >
+			<removeDestConnection kind="call" startline="210" startcolumn="9" />
+		</removeDestConnection>
+		<removeDestConnection kind="method" startline="213" startcolumn="10" >
+			<_meta_receive.removePassiveConnection kind="call" startline="215" startcolumn="9" />
+		</removeDestConnection>
+		<IsItConnectedTo kind="method" startline="218" startcolumn="13" >
+			<_meta_send.ISConnected kind="call" startline="220" startcolumn="16" />
+		</IsItConnectedTo>
+		<getAllConnectionSources kind="method" startline="223" startcolumn="15" >
+			<_meta_receive.getAllConnectionSources kind="call" startline="228" startcolumn="16" />
+		</getAllConnectionSources>
+		<getAllConnectionDestinations kind="method" startline="231" startcolumn="15" >
+			<_meta_send.getAllConnectionDestinations kind="call" startline="236" startcolumn="16" />
+		</getAllConnectionDestinations>
+		<generateUniqueRoleID kind="method" startline="239" startcolumn="22" >
+			<role.getClass kind="call" startline="241" startcolumn="16" />
+			<toString kind="call" startline="241" startcolumn="32" />
+			<role.getClass kind="call" startline="241" startcolumn="16" />
+			<Integer.toString kind="call" startline="241" startcolumn="51" />
+		</generateUniqueRoleID>
+		<assignRole kind="method" startline="244" startcolumn="32" >
+			<isInitialized kind="call" startline="246" startcolumn="13" />
+			<role.beforeEvents kind="call" startline="249" startcolumn="34" />
+			<role.afterEvents kind="call" startline="250" startcolumn="33" />
+			<role.receiveEvents kind="call" startline="251" startcolumn="35" />
+			<role.sendEvents kind="call" startline="252" startcolumn="32" />
+			<role.inFilterEvents kind="call" startline="253" startcolumn="36" />
+			<role.outFilterEvents kind="call" startline="254" startcolumn="37" />
+			<System.err.println kind="call" startline="258" startcolumn="13" />
+			<isReceiver kind="call" startline="259" startcolumn="17" />
+			<isReceiver kind="call" startline="267" startcolumn="17" />
+			<isReceiver kind="call" startline="275" startcolumn="17" />
+			<System.err.println kind="call" startline="282" startcolumn="13" />
+			<isSender kind="call" startline="283" startcolumn="17" />
+			<checkRole kind="call" startline="290" startcolumn="14" />
+			<role.checkComponent kind="call" startline="295" startcolumn="14" />
+			<addDynamicType kind="call" startline="301" startcolumn="13" />
+			<System.err.println kind="call" startline="305" startcolumn="13" />
+			<addDynamicType kind="call" startline="306" startcolumn="13" />
+			<_roles.addElement kind="call" startline="310" startcolumn="9" />
+			<generateUniqueRoleID kind="call" startline="311" startcolumn="26" />
+			<_role_ids.put kind="call" startline="312" startcolumn="9" />
+			<_meta_in_fetch.assignRole kind="call" startline="315" startcolumn="9" />
+			<_meta_exec.assignRole kind="call" startline="316" startcolumn="9" />
+			<_meta_out_fetch.assignRole kind="call" startline="317" startcolumn="9" />
+			<role.initialize kind="call" startline="321" startcolumn="9" />
+		</assignRole>
+		<unAssignRole kind="method" startline="325" startcolumn="33" >
+			<isInitialized kind="call" startline="328" startcolumn="13" />
+			<_role_ids.get kind="call" startline="331" startcolumn="36" />
+			<_roles.contains kind="call" startline="336" startcolumn="13" />
+			<removeDynamicTypes kind="call" startline="339" startcolumn="9" />
+			<_meta_in_fetch.unAssignRole kind="call" startline="342" startcolumn="9" />
+			<_meta_exec.unAssignRole kind="call" startline="343" startcolumn="9" />
+			<_meta_out_fetch.unAssignRole kind="call" startline="344" startcolumn="9" />
+			<_roles.remove kind="call" startline="347" startcolumn="9" />
+			<_role_ids.remove kind="call" startline="348" startcolumn="9" />
+		</unAssignRole>
+		<createMetaObjects kind="method" startline="354" startcolumn="20" >
+			<System.out.println kind="call" startline="356" startcolumn="9" />
+			<createMetaReceive kind="call" startline="359" startcolumn="25" />
+			<createMetaInQueue kind="call" startline="360" startcolumn="26" />
+			<createMetaInFetch kind="call" startline="361" startcolumn="26" />
+			<createMetaExec kind="call" startline="362" startcolumn="22" />
+			<createMetaOutQueue kind="call" startline="363" startcolumn="27" />
+			<createMetaOutFetch kind="call" startline="364" startcolumn="27" />
+			<createMetaSend kind="call" startline="365" startcolumn="22" />
+		</createMetaObjects>
+		<initAllMetaObjects kind="method" startline="369" startcolumn="20" >
+			<System.out.println kind="call" startline="374" startcolumn="9" />
+			<initMetaInQueue kind="call" startline="375" startcolumn="9" />
+			<initMetaExec kind="call" startline="376" startcolumn="9" />
+			<initMetaInFetch kind="call" startline="377" startcolumn="9" />
+			<initMetaOutQueue kind="call" startline="378" startcolumn="9" />
+			<initMetaSend kind="call" startline="379" startcolumn="9" />
+			<initMetaOutFetch kind="call" startline="380" startcolumn="9" />
+			<initMetaReceive kind="call" startline="381" startcolumn="9" />
+		</initAllMetaObjects>
+		<initAllFieldsOfMetaObjects kind="method" startline="384" startcolumn="20" >
+			<initFieldsOfMetaInQueue kind="call" startline="386" startcolumn="9" />
+			<initFieldsOfMetaExec kind="call" startline="387" startcolumn="9" />
+			<initFieldsOfMetaInFetch kind="call" startline="388" startcolumn="9" />
+			<initFieldsOfMetaOutQueue kind="call" startline="389" startcolumn="9" />
+			<initFieldsOfMetaSend kind="call" startline="390" startcolumn="9" />
+			<initFieldsOfMetaOutFetch kind="call" startline="391" startcolumn="9" />
+			<initFieldsOfMetaReceive kind="call" startline="392" startcolumn="9" />
+		</initAllFieldsOfMetaObjects>
+		<postInitAllMetaObjects kind="method" startline="398" startcolumn="20" >
+			<postInitMetaReceive kind="call" startline="402" startcolumn="9" />
+			<postInitMetaInQueue kind="call" startline="403" startcolumn="9" />
+			<postInitMetaInFetch kind="call" startline="404" startcolumn="9" />
+			<postInitMetaExec kind="call" startline="405" startcolumn="9" />
+			<postInitMetaOutQueue kind="call" startline="406" startcolumn="9" />
+			<postInitMetaOutFetch kind="call" startline="407" startcolumn="9" />
+			<postInitMetaSend kind="call" startline="408" startcolumn="9" />
+		</postInitAllMetaObjects>
+		<initializeFields kind="method" startline="412" startcolumn="17" >
+			<System.out.println kind="call" startline="414" startcolumn="9" />
+			<isInitialized kind="call" startline="415" startcolumn="12" />
+			<createMetaObjects kind="call" startline="417" startcolumn="9" />
+			<initAllFieldsOfMetaObjects kind="call" startline="418" startcolumn="9" />
+			<postInitAllMetaObjects kind="call" startline="419" startcolumn="9" />
+		</initializeFields>
+		<initialize kind="method" startline="428" startcolumn="17" >
+			<System.out.println kind="call" startline="430" startcolumn="9" />
+			<isInitialized kind="call" startline="431" startcolumn="12" />
+			<createMetaObjects kind="call" startline="437" startcolumn="9" />
+			<initAllMetaObjects kind="call" startline="440" startcolumn="9" />
+			<postInitAllMetaObjects kind="call" startline="443" startcolumn="9" />
+		</initialize>
+		<createMetaReceive kind="method" startline="453" startcolumn="27" >
+		</createMetaReceive>
+		<getMetaReceive kind="method" startline="458" startcolumn="24" >
+		</getMetaReceive>
+		<initMetaReceive kind="method" startline="463" startcolumn="20" >
+			<_meta_receive.initialize kind="call" startline="465" startcolumn="9" />
+		</initMetaReceive>
+		<postInitMetaReceive kind="method" startline="468" startcolumn="20" >
+		</postInitMetaReceive>
+		<createMetaInQueue kind="method" startline="473" startcolumn="27" >
+		</createMetaInQueue>
+		<getMetaInQueue kind="method" startline="478" startcolumn="24" >
+		</getMetaInQueue>
+		<initMetaInQueue kind="method" startline="483" startcolumn="20" >
+			<_meta_in_queue.initialize kind="call" startline="485" startcolumn="9" />
+		</initMetaInQueue>
+		<postInitMetaInQueue kind="method" startline="488" startcolumn="20" >
+			<_meta_in_queue.postInit kind="call" startline="490" startcolumn="9" />
+		</postInitMetaInQueue>
+		<createMetaInFetch kind="method" startline="493" startcolumn="27" >
+		</createMetaInFetch>
+		<getMetaInFetch kind="method" startline="498" startcolumn="24" >
+		</getMetaInFetch>
+		<initMetaInFetch kind="method" startline="503" startcolumn="20" >
+			<_meta_in_fetch.initialize kind="call" startline="505" startcolumn="9" />
+		</initMetaInFetch>
+		<postInitMetaInFetch kind="method" startline="508" startcolumn="20" >
+		</postInitMetaInFetch>
+		<createMetaExec kind="method" startline="513" startcolumn="24" >
+		</createMetaExec>
+		<getMetaExec kind="method" startline="518" startcolumn="21" >
+		</getMetaExec>
+		<initMetaExec kind="method" startline="523" startcolumn="20" >
+			<_meta_exec.initialize kind="call" startline="525" startcolumn="9" />
+		</initMetaExec>
+		<postInitMetaExec kind="method" startline="528" startcolumn="20" >
+		</postInitMetaExec>
+		<createMetaOutQueue kind="method" startline="533" startcolumn="28" >
+		</createMetaOutQueue>
+		<getMetaOutQueue kind="method" startline="538" startcolumn="25" >
+		</getMetaOutQueue>
+		<initMetaOutQueue kind="method" startline="543" startcolumn="20" >
+			<_meta_out_queue.initialize kind="call" startline="545" startcolumn="9" />
+		</initMetaOutQueue>
+		<postInitMetaOutQueue kind="method" startline="548" startcolumn="20" >
+			<_meta_out_queue.postInit kind="call" startline="550" startcolumn="9" />
+		</postInitMetaOutQueue>
+		<createMetaOutFetch kind="method" startline="553" startcolumn="28" >
+		</createMetaOutFetch>
+		<getMetaOutFetch kind="method" startline="558" startcolumn="25" >
+		</getMetaOutFetch>
+		<initMetaOutFetch kind="method" startline="563" startcolumn="20" >
+			<System.out.println kind="call" startline="565" startcolumn="9" />
+			<initialize kind="call" startline="569" startcolumn="49" />
+		</initMetaOutFetch>
+		<postInitMetaOutFetch kind="method" startline="573" startcolumn="20" >
+		</postInitMetaOutFetch>
+		<createMetaSend kind="method" startline="578" startcolumn="24" >
+		</createMetaSend>
+		<getMetaSend kind="method" startline="583" startcolumn="21" >
+		</getMetaSend>
+		<initMetaSend kind="method" startline="588" startcolumn="20" >
+			<_meta_send.initialize kind="call" startline="590" startcolumn="9" />
+		</initMetaSend>
+		<postInitMetaSend kind="method" startline="593" startcolumn="20" >
+		</postInitMetaSend>
+		<initFieldsOfMetaInFetch kind="method" startline="601" startcolumn="20" >
+			<initializeFields kind="call" startline="603" startcolumn="46" />
+		</initFieldsOfMetaInFetch>
+		<initFieldsOfMetaOutFetch kind="method" startline="606" startcolumn="20" >
+			<initializeFields kind="call" startline="608" startcolumn="48" />
+		</initFieldsOfMetaOutFetch>
+		<initFieldsOfMetaInQueue kind="method" startline="611" startcolumn="20" >
+			<initializeFields kind="call" startline="613" startcolumn="46" />
+		</initFieldsOfMetaInQueue>
+		<initFieldsOfMetaExec kind="method" startline="616" startcolumn="20" >
+			<initializeFields kind="call" startline="618" startcolumn="39" />
+		</initFieldsOfMetaExec>
+		<initFieldsOfMetaOutQueue kind="method" startline="621" startcolumn="20" >
+			<initializeFields kind="call" startline="623" startcolumn="48" />
+		</initFieldsOfMetaOutQueue>
+		<initFieldsOfMetaSend kind="method" startline="626" startcolumn="20" >
+			<initializeFields kind="call" startline="628" startcolumn="39" />
+		</initFieldsOfMetaSend>
+		<initFieldsOfMetaReceive kind="method" startline="631" startcolumn="20" >
+			<initializeFields kind="call" startline="633" startcolumn="45" />
+		</initFieldsOfMetaReceive>
+</DefaultComponent>
+<DefaultMetaExec kind="class" startline="30" startcolumn="14">
+		<initializeFields kind="method" startline="35" startcolumn="17" >
+			<introspectBase kind="call" startline="46" startcolumn="13" />
+			<base.getClass kind="call" startline="48" startcolumn="81" />
+			<toString kind="call" startline="48" startcolumn="97" />
+			<base.getClass kind="call" startline="48" startcolumn="81" />
+			<System.err.println kind="call" startline="48" startcolumn="13" />
+			<t.printStackTrace kind="call" startline="49" startcolumn="13" />
+		</initializeFields>
+		<initialize kind="method" startline="53" startcolumn="17" >
+			<initializeFields kind="call" startline="55" startcolumn="9" />
+		</initialize>
+		<perform kind="method" startline="58" startcolumn="17" >
+			<event.getClass kind="call" startline="61" startcolumn="33" />
+			<searchRoleBinding kind="call" startline="65" startcolumn="41" />
+			<pre_hooks.elements kind="call" startline="67" startcolumn="36" />
+			<enum.hasMoreElements kind="call" startline="68" startcolumn="23" />
+			<enum.nextElement kind="call" startline="69" startcolumn="50" />
+			<method.invoke kind="call" startline="72" startcolumn="21" />
+			<searchEventBinding kind="call" startline="77" startcolumn="45" />
+			<invokeMethod kind="call" startline="81" startcolumn="17" />
+			<searchRoleBinding kind="call" startline="85" startcolumn="44" />
+			<role_methods.elements kind="call" startline="87" startcolumn="36" />
+			<enum.hasMoreElements kind="call" startline="88" startcolumn="23" />
+			<enum.nextElement kind="call" startline="89" startcolumn="50" />
+			<method.invoke kind="call" startline="92" startcolumn="21" />
+			<searchRoleBinding kind="call" startline="97" startcolumn="42" />
+			<post_hooks.elements kind="call" startline="99" startcolumn="36" />
+			<enum.hasMoreElements kind="call" startline="100" startcolumn="23" />
+			<enum.nextElement kind="call" startline="101" startcolumn="50" />
+			<method.invoke kind="call" startline="104" startcolumn="21" />
+			<t.getMessage kind="call" startline="108" startcolumn="67" />
+			<System.err.println kind="call" startline="108" startcolumn="13" />
+			<t.printStackTrace kind="call" startline="109" startcolumn="13" />
+		</perform>
+		<invokeMethod kind="method" startline="113" startcolumn="10" >
+			<method.invoke kind="call" startline="118" startcolumn="13" />
+		</invokeMethod>
+		<assignRole kind="method" startline="125" startcolumn="30" >
+			<role.getClass kind="call" startline="129" startcolumn="32" />
+			<role_class.getInterfaces kind="call" startline="130" startcolumn="34" />
+			<getName kind="call" startline="135" startcolumn="55" />
+			<interfaces kind="call" startline="135" startcolumn="41" />
+			<interface_name.endsWith kind="call" startline="136" startcolumn="20" />
+			<Naming.preHookFetcherToEvent kind="call" startline="137" startcolumn="41" />
+			<getDeclaredMethods kind="call" startline="138" startcolumn="54" />
+			<interfaces kind="call" startline="138" startcolumn="40" />
+			<getName kind="call" startline="139" startcolumn="53" />
+			<methods kind="call" startline="139" startcolumn="42" />
+			<addPreHook kind="call" startline="140" startcolumn="21" />
+			<interface_name.endsWith kind="call" startline="141" startcolumn="27" />
+			<Naming.postHookFetcherToEvent kind="call" startline="142" startcolumn="41" />
+			<getDeclaredMethods kind="call" startline="143" startcolumn="54" />
+			<interfaces kind="call" startline="143" startcolumn="40" />
+			<getName kind="call" startline="144" startcolumn="53" />
+			<methods kind="call" startline="144" startcolumn="42" />
+			<addPostHook kind="call" startline="145" startcolumn="21" />
+			<interface_name.endsWith kind="call" startline="147" startcolumn="27" />
+			<Naming.fetcherToEvent kind="call" startline="148" startcolumn="41" />
+			<getDeclaredMethods kind="call" startline="149" startcolumn="54" />
+			<interfaces kind="call" startline="149" startcolumn="40" />
+			<getName kind="call" startline="150" startcolumn="53" />
+			<methods kind="call" startline="150" startcolumn="42" />
+			<addRoleBinding kind="call" startline="151" startcolumn="21" />
+			<t.getMessage kind="call" startline="155" startcolumn="32" />
+			<System.err.println kind="call" startline="155" startcolumn="13" />
+			<t.printStackTrace kind="call" startline="156" startcolumn="13" />
+		</assignRole>
+		<unAssignRole kind="method" startline="160" startcolumn="30" >
+			<_pre_hook_binding.values kind="call" startline="163" startcolumn="25" />
+			<iterator kind="call" startline="163" startcolumn="52" />
+			<_pre_hook_binding.values kind="call" startline="163" startcolumn="25" />
+			<iter.hasNext kind="call" startline="164" startcolumn="15" />
+			<iter.next kind="call" startline="165" startcolumn="40" />
+			<bindings.iterator kind="call" startline="167" startcolumn="34" />
+			<iter2.hasNext kind="call" startline="168" startcolumn="23" />
+			<iter2.next kind="call" startline="169" startcolumn="50" />
+			<iter2.remove kind="call" startline="171" startcolumn="25" />
+			<_post_hook_binding.values kind="call" startline="178" startcolumn="16" />
+			<iterator kind="call" startline="178" startcolumn="44" />
+			<_post_hook_binding.values kind="call" startline="178" startcolumn="16" />
+			<iter.hasNext kind="call" startline="179" startcolumn="15" />
+			<iter.next kind="call" startline="180" startcolumn="40" />
+			<bindings.iterator kind="call" startline="182" startcolumn="34" />
+			<iter2.hasNext kind="call" startline="183" startcolumn="23" />
+			<iter2.next kind="call" startline="184" startcolumn="50" />
+			<iter2.remove kind="call" startline="186" startcolumn="25" />
+			<_role_binding.values kind="call" startline="193" startcolumn="16" />
+			<iterator kind="call" startline="193" startcolumn="39" />
+			<_role_binding.values kind="call" startline="193" startcolumn="16" />
+			<iter.hasNext kind="call" startline="194" startcolumn="15" />
+			<iter.next kind="call" startline="195" startcolumn="40" />
+			<bindings.iterator kind="call" startline="197" startcolumn="34" />
+			<iter2.hasNext kind="call" startline="198" startcolumn="23" />
+			<iter2.next kind="call" startline="199" startcolumn="50" />
+			<iter2.remove kind="call" startline="201" startcolumn="25" />
+		</unAssignRole>
+		<searchEventBinding kind="method" startline="209" startcolumn="22" >
+			<event_class.getName kind="call" startline="212" startcolumn="33" />
+			<_event_binding.get kind="call" startline="213" startcolumn="39" />
+			<event_class.getSuperclass kind="call" startline="215" startcolumn="27" />
+		</searchEventBinding>
+		<searchRoleBinding kind="method" startline="222" startcolumn="22" >
+			<event_class.getName kind="call" startline="225" startcolumn="33" />
+			<role_bindings.get kind="call" startline="226" startcolumn="39" />
+			<event_class.getSuperclass kind="call" startline="228" startcolumn="27" />
+		</searchRoleBinding>
+		<addHook kind="method" startline="233" startcolumn="18" >
+			<bindings.get kind="call" startline="235" startcolumn="33" />
+			<bindings.put kind="call" startline="238" startcolumn="13" />
+			<Daemon.fetchClass kind="call" startline="241" startcolumn="29" />
+			<Class.forName kind="call" startline="243" startcolumn="27" />
+			<role.getClass kind="call" startline="247" startcolumn="25" />
+			<getMethod kind="call" startline="247" startcolumn="41" />
+			<role.getClass kind="call" startline="247" startcolumn="25" />
+			<hooks.addElement kind="call" startline="250" startcolumn="9" />
+		</addHook>
+		<addPreHook kind="method" startline="253" startcolumn="18" >
+			<addHook kind="call" startline="256" startcolumn="9" />
+		</addPreHook>
+		<addPostHook kind="method" startline="260" startcolumn="18" >
+			<addHook kind="call" startline="263" startcolumn="9" />
+		</addPostHook>
+		<addRoleBinding kind="method" startline="266" startcolumn="18" >
+			<addHook kind="call" startline="269" startcolumn="9" />
+		</addRoleBinding>
+		<introspectBase kind="method" startline="273" startcolumn="10" >
+			<_base.getClass kind="call" startline="276" startcolumn="32" />
+			<base_class.getInterfaces kind="call" startline="285" startcolumn="34" />
+			<Allinterfaces.add kind="call" startline="288" startcolumn="17" />
+			<base_class.getName kind="call" startline="290" startcolumn="21" />
+			<base_class.getSuperclass kind="call" startline="291" startcolumn="24" />
+			<base_class.getSuperclass kind="call" startline="292" startcolumn="28" />
+			<base_class.getInterfaces kind="call" startline="293" startcolumn="30" />
+			<Allinterfaces.add kind="call" startline="295" startcolumn="21" />
+			<getInputEvents kind="call" startline="299" startcolumn="34" />
+			<getInputMethods kind="call" startline="303" startcolumn="35" />
+			<Daemon.fetchClass kind="call" startline="306" startcolumn="37" />
+			<Class.forName kind="call" startline="308" startcolumn="35" />
+			<_base.getClass kind="call" startline="323" startcolumn="37" />
+			<getMethod kind="call" startline="323" startcolumn="54" />
+			<_base.getClass kind="call" startline="323" startcolumn="37" />
+			<_event_binding.put kind="call" startline="325" startcolumn="21" />
+		</introspectBase>
+		<getInputEvents kind="method" startline="333" startcolumn="21" >
+			<interfaces.size kind="call" startline="336" startcolumn="39" />
+			<interfaces.size kind="call" startline="337" startcolumn="23" />
+			<interfaces.get kind="call" startline="338" startcolumn="37" />
+			<getName kind="call" startline="338" startcolumn="56" />
+			<iname.endsWith kind="call" startline="340" startcolumn="16" />
+			<iname.indexOf kind="call" startline="341" startcolumn="31" />
+			<iname.substring kind="call" startline="342" startcolumn="25" />
+		</getInputEvents>
+		<getInputMethods kind="method" startline="358" startcolumn="21" >
+			<Daemon.fetchClass kind="call" startline="362" startcolumn="27" />
+			<System.err.println kind="call" startline="364" startcolumn="17" />
+			<inter.getDeclaredMethods kind="call" startline="368" startcolumn="28" />
+			<getName kind="call" startline="372" startcolumn="37" />
+			<met kind="call" startline="372" startcolumn="30" />
+		</getInputMethods>
+</DefaultMetaExec>
+<DefaultMetaInFetch kind="class" startline="28" startcolumn="14">
+		<initializeFields kind="method" startline="34" startcolumn="17" >
+		</initializeFields>
+		<initialize kind="method" startline="43" startcolumn="17" >
+			<initializeFields kind="call" startline="45" startcolumn="9" />
+			<System.out.println kind="call" startline="46" startcolumn="9" />
+			<startThread kind="call" startline="47" startcolumn="14" />
+		</initialize>
+		<startThread kind="method" startline="51" startcolumn="10" >
+			<System.out.println kind="call" startline="53" startcolumn="9" />
+			<_thread.start kind="call" startline="56" startcolumn="13" />
+			<System.out.println kind="call" startline="60" startcolumn="13" />
+		</startThread>
+		<addInFilter kind="method" startline="65" startcolumn="20" >
+			<_in_filters.get kind="call" startline="68" startcolumn="45" />
+			<_in_filters.put kind="call" startline="71" startcolumn="17" />
+			<Daemon.fetchClass kind="call" startline="74" startcolumn="33" />
+			<Class.forName kind="call" startline="76" startcolumn="31" />
+			<role.getClass kind="call" startline="80" startcolumn="29" />
+			<getMethod kind="call" startline="80" startcolumn="45" />
+			<role.getClass kind="call" startline="80" startcolumn="29" />
+			<filters.add kind="call" startline="83" startcolumn="13" />
+			<System.err.println kind="call" startline="85" startcolumn="13" />
+			<e.printStackTrace kind="call" startline="86" startcolumn="13" />
+		</addInFilter>
+		<assignRole kind="method" startline="90" startcolumn="30" >
+			<role.getClass kind="call" startline="96" startcolumn="32" />
+			<role_class.getInterfaces kind="call" startline="97" startcolumn="34" />
+			<getName kind="call" startline="102" startcolumn="55" />
+			<interfaces kind="call" startline="102" startcolumn="41" />
+			<interface_name.endsWith kind="call" startline="103" startcolumn="20" />
+			<Naming.inFilterToEvent kind="call" startline="104" startcolumn="41" />
+			<getDeclaredMethods kind="call" startline="105" startcolumn="54" />
+			<interfaces kind="call" startline="105" startcolumn="40" />
+			<getName kind="call" startline="106" startcolumn="53" />
+			<methods kind="call" startline="106" startcolumn="42" />
+			<addInFilter kind="call" startline="107" startcolumn="21" />
+			<t.getMessage kind="call" startline="112" startcolumn="36" />
+			<System.err.println kind="call" startline="112" startcolumn="17" />
+			<t.printStackTrace kind="call" startline="113" startcolumn="17" />
+		</assignRole>
+		<unAssignRole kind="method" startline="117" startcolumn="30" >
+			<_in_filters.values kind="call" startline="119" startcolumn="25" />
+			<iterator kind="call" startline="119" startcolumn="46" />
+			<_in_filters.values kind="call" startline="119" startcolumn="25" />
+			<iter.hasNext kind="call" startline="120" startcolumn="15" />
+			<iter.next kind="call" startline="121" startcolumn="45" />
+			<filters.iterator kind="call" startline="123" startcolumn="34" />
+			<iter2.hasNext kind="call" startline="124" startcolumn="23" />
+			<iter2.next kind="call" startline="125" startcolumn="54" />
+			<iter2.remove kind="call" startline="127" startcolumn="25" />
+		</unAssignRole>
+		<searchFilterBinding kind="method" startline="134" startcolumn="25" >
+			<event_class.getName kind="call" startline="137" startcolumn="33" />
+			<_in_filters.get kind="call" startline="138" startcolumn="45" />
+			<event_class.getSuperclass kind="call" startline="140" startcolumn="27" />
+		</searchFilterBinding>
+		<doFilter kind="method" startline="145" startcolumn="23" >
+			<filters.size kind="call" startline="151" startcolumn="27" />
+			<filters.get kind="call" startline="152" startcolumn="50" />
+			<fr.method.invoke kind="call" startline="153" startcolumn="44" />
+			<retval.booleanValue kind="call" startline="154" startcolumn="21" />
+			<System.err.println kind="call" startline="164" startcolumn="13" />
+			<e.printStackTrace kind="call" startline="165" startcolumn="13" />
+		</doFilter>
+		<run kind="method" startline="171" startcolumn="17" >
+			<_meta_in_queue.isPending kind="call" startline="178" startcolumn="26" />
+			<wait kind="call" startline="179" startcolumn="30" />
+			<_meta_in_queue.fetch kind="call" startline="183" startcolumn="27" />
+			<event.getClass kind="call" startline="187" startcolumn="37" />
+			<searchFilterBinding kind="call" startline="188" startcolumn="37" />
+			<doFilter kind="call" startline="191" startcolumn="36" />
+			<_meta_exec.perform kind="call" startline="195" startcolumn="21" />
+			<t.toString kind="call" startline="199" startcolumn="58" />
+			<System.err.println kind="call" startline="199" startcolumn="17" />
+			<t.getMessage kind="call" startline="200" startcolumn="36" />
+			<System.err.println kind="call" startline="200" startcolumn="17" />
+			<t.printStackTrace kind="call" startline="201" startcolumn="17" />
+		</run>
+</DefaultMetaInFetch>
+<DefaultMetaInQueue kind="class" startline="28" startcolumn="14">
+		<initializeFields kind="method" startline="37" startcolumn="17" >
+		</initializeFields>
+		<initialize kind="method" startline="43" startcolumn="17" >
+			<initializeFields kind="call" startline="45" startcolumn="9" />
+		</initialize>
+		<postInit kind="method" startline="48" startcolumn="17" >
+		</postInit>
+		<initialize kind="method" startline="53" startcolumn="18" >
+			<initialize kind="call" startline="55" startcolumn="9" />
+		</initialize>
+		<wakeupFetcher kind="method" startline="61" startcolumn="20" >
+			<_meta_in_fetch.notify kind="call" startline="64" startcolumn="13" />
+		</wakeupFetcher>
+		<queue kind="method" startline="68" startcolumn="30" >
+			<_queue.addElement kind="call" startline="70" startcolumn="9" />
+			<wakeupFetcher kind="call" startline="71" startcolumn="9" />
+		</queue>
+		<fetch kind="method" startline="74" startcolumn="31" >
+			<_queue.firstElement kind="call" startline="76" startcolumn="32" />
+			<_queue.removeElementAt kind="call" startline="77" startcolumn="9" />
+		</fetch>
+		<isPending kind="method" startline="81" startcolumn="20" >
+			<_queue.isEmpty kind="call" startline="83" startcolumn="18" />
+		</isPending>
+		<size kind="method" startline="86" startcolumn="29" >
+			<_queue.size kind="call" startline="88" startcolumn="16" />
+		</size>
+		<print kind="method" startline="92" startcolumn="17" >
+			<size kind="call" startline="94" startcolumn="65" />
+			<System.out.println kind="call" startline="94" startcolumn="9" />
+			<_queue.size kind="call" startline="95" startcolumn="28" />
+			<_queue.get kind="call" startline="96" startcolumn="43" />
+			<toString kind="call" startline="96" startcolumn="57" />
+			<_queue.get kind="call" startline="96" startcolumn="43" />
+			<System.out.println kind="call" startline="96" startcolumn="13" />
+		</print>
+</DefaultMetaInQueue>
+<DefaultMetaOutFetch kind="class" startline="28" startcolumn="14">
+		<initializeFields kind="method" startline="31" startcolumn="17" >
+		</initializeFields>
+		<initialize kind="method" startline="40" startcolumn="17" >
+			<initializeFields kind="call" startline="42" startcolumn="14" />
+			<startThread kind="call" startline="43" startcolumn="14" />
+		</initialize>
+		<addOutFilter kind="method" startline="46" startcolumn="20" >
+			<_out_filters.get kind="call" startline="49" startcolumn="45" />
+			<_out_filters.put kind="call" startline="52" startcolumn="17" />
+			<Daemon.fetchClass kind="call" startline="55" startcolumn="33" />
+			<Class.forName kind="call" startline="57" startcolumn="31" />
+			<role.getClass kind="call" startline="61" startcolumn="29" />
+			<getMethod kind="call" startline="61" startcolumn="45" />
+			<role.getClass kind="call" startline="61" startcolumn="29" />
+			<filters.add kind="call" startline="64" startcolumn="13" />
+			<System.err.println kind="call" startline="67" startcolumn="13" />
+			<e.printStackTrace kind="call" startline="68" startcolumn="13" />
+		</addOutFilter>
+		<assignRole kind="method" startline="72" startcolumn="30" >
+			<role.getClass kind="call" startline="76" startcolumn="32" />
+			<role_class.getInterfaces kind="call" startline="77" startcolumn="34" />
+			<getName kind="call" startline="82" startcolumn="55" />
+			<interfaces kind="call" startline="82" startcolumn="41" />
+			<interface_name.endsWith kind="call" startline="83" startcolumn="20" />
+			<Naming.outFilterFetcherToEvent kind="call" startline="84" startcolumn="41" />
+			<getDeclaredMethods kind="call" startline="85" startcolumn="54" />
+			<interfaces kind="call" startline="85" startcolumn="40" />
+			<getName kind="call" startline="86" startcolumn="53" />
+			<methods kind="call" startline="86" startcolumn="42" />
+			<System.err.println kind="call" startline="87" startcolumn="21" />
+			<addOutFilter kind="call" startline="88" startcolumn="21" />
+			<t.getMessage kind="call" startline="93" startcolumn="32" />
+			<System.err.println kind="call" startline="93" startcolumn="13" />
+			<t.printStackTrace kind="call" startline="94" startcolumn="13" />
+		</assignRole>
+		<unAssignRole kind="method" startline="98" startcolumn="30" >
+			<_out_filters.values kind="call" startline="100" startcolumn="25" />
+			<iterator kind="call" startline="100" startcolumn="47" />
+			<_out_filters.values kind="call" startline="100" startcolumn="25" />
+			<iter.hasNext kind="call" startline="101" startcolumn="15" />
+			<iter.next kind="call" startline="102" startcolumn="45" />
+			<filters.iterator kind="call" startline="104" startcolumn="34" />
+			<iter2.hasNext kind="call" startline="105" startcolumn="23" />
+			<iter2.next kind="call" startline="106" startcolumn="54" />
+			<iter2.remove kind="call" startline="108" startcolumn="25" />
+		</unAssignRole>
+		<searchFilterBinding kind="method" startline="115" startcolumn="25" >
+			<event_class.getName kind="call" startline="118" startcolumn="33" />
+			<_out_filters.get kind="call" startline="119" startcolumn="45" />
+			<event_class.getSuperclass kind="call" startline="121" startcolumn="27" />
+		</searchFilterBinding>
+		<doFilter kind="method" startline="126" startcolumn="23" >
+			<filters.size kind="call" startline="132" startcolumn="27" />
+			<filters.get kind="call" startline="133" startcolumn="50" />
+			<fr.method.invoke kind="call" startline="134" startcolumn="44" />
+			<retval.booleanValue kind="call" startline="135" startcolumn="21" />
+			<System.err.println kind="call" startline="144" startcolumn="13" />
+			<e.printStackTrace kind="call" startline="145" startcolumn="13" />
+		</doFilter>
+		<run kind="method" startline="152" startcolumn="17" >
+			<_meta_out_queue.isPending kind="call" startline="159" startcolumn="26" />
+			<wait kind="call" startline="160" startcolumn="30" />
+			<_meta_out_queue.isPending kind="call" startline="164" startcolumn="16" />
+			<_meta_out_queue.fetch kind="call" startline="166" startcolumn="31" />
+			<event.getClass kind="call" startline="169" startcolumn="41" />
+			<searchFilterBinding kind="call" startline="170" startcolumn="41" />
+			<event_class.equals kind="call" startline="171" startcolumn="45" />
+			<event_class.getSuperclass kind="call" startline="172" startcolumn="39" />
+			<searchFilterBinding kind="call" startline="173" startcolumn="35" />
+			<doFilter kind="call" startline="177" startcolumn="40" />
+			<_meta_send.perform kind="call" startline="181" startcolumn="25" />
+			<t.getMessage kind="call" startline="184" startcolumn="84" />
+			<System.err.println kind="call" startline="184" startcolumn="21" />
+			<t.printStackTrace kind="call" startline="185" startcolumn="21" />
+		</run>
+		<startThread kind="method" startline="196" startcolumn="10" >
+			<System.out.println kind="call" startline="199" startcolumn="13" />
+			<_thread.start kind="call" startline="203" startcolumn="13" />
+			<System.out.println kind="call" startline="206" startcolumn="13" />
+		</startThread>
+</DefaultMetaOutFetch>
+<DefaultMetaOutQueue kind="class" startline="29" startcolumn="14">
+		<initializeFields kind="method" startline="35" startcolumn="17" >
+		</initializeFields>
+		<initialize kind="method" startline="42" startcolumn="17" >
+			<initializeFields kind="call" startline="44" startcolumn="9" />
+		</initialize>
+		<postInit kind="method" startline="47" startcolumn="17" >
+		</postInit>
+		<queue kind="method" startline="52" startcolumn="30" >
+			<_queue.addLast kind="call" startline="54" startcolumn="9" />
+			<_meta_out_fetch.notify kind="call" startline="56" startcolumn="13" />
+		</queue>
+		<fetch kind="method" startline="60" startcolumn="31" >
+			<_queue.removeFirst kind="call" startline="63" startcolumn="32" />
+		</fetch>
+		<isPending kind="method" startline="67" startcolumn="20" >
+			<_queue.isEmpty kind="call" startline="69" startcolumn="18" />
+		</isPending>
+		<size kind="method" startline="72" startcolumn="29" >
+			<_queue.size kind="call" startline="74" startcolumn="16" />
+		</size>
+		<print kind="method" startline="78" startcolumn="17" >
+			<_queue.listIterator kind="call" startline="81" startcolumn="29" />
+			<iter.hasNext kind="call" startline="81" startcolumn="52" />
+			<iter.next kind="call" startline="82" startcolumn="60" />
+			<toString kind="call" startline="82" startcolumn="73" />
+			<System.out.println kind="call" startline="82" startcolumn="13" />
+		</print>
+</DefaultMetaOutQueue>
+<DefaultMetaReceive kind="class" startline="30" startcolumn="14">
+		<initializeFields kind="method" startline="127" startcolumn="17" >
+		</initializeFields>
+		<initialize kind="method" startline="134" startcolumn="17" >
+			<initializeFields kind="call" startline="141" startcolumn="9" />
+		</initialize>
+		<handleEvent kind="method" startline="148" startcolumn="30" >
+			<_meta_in_queue.queue kind="call" startline="150" startcolumn="9" />
+		</handleEvent>
+		<addActiveConnection kind="method" startline="158" startcolumn="30" >
+			<_source_components.get kind="call" startline="163" startcolumn="12" />
+			<System.out.println kind="call" startline="166" startcolumn="17" />
+			<Thread.currentThread kind="call" startline="167" startcolumn="17" />
+			<dumpStack kind="call" startline="167" startcolumn="40" />
+			<Thread.currentThread kind="call" startline="167" startcolumn="17" />
+			<_source_components.put kind="call" startline="170" startcolumn="13" />
+			<socket.getInputStream kind="call" startline="177" startcolumn="18" />
+			<System.err.println kind="call" startline="179" startcolumn="13" />
+			<e.getMessage kind="call" startline="180" startcolumn="39" />
+			<System.err.println kind="call" startline="180" startcolumn="13" />
+			<_threads_in.put kind="call" startline="185" startcolumn="9" />
+		</addActiveConnection>
+		<removeActiveConnection kind="method" startline="189" startcolumn="30" >
+			<removeActiveConnection kind="call" startline="191" startcolumn="9" />
+		</removeActiveConnection>
+		<getAllConnectionSources kind="method" startline="194" startcolumn="28" >
+			<_source_components.keys kind="call" startline="197" startcolumn="28" />
+			<enum.hasMoreElements kind="call" startline="198" startcolumn="15" />
+			<enum.nextElement kind="call" startline="199" startcolumn="37" />
+			<linkkeys.add kind="call" startline="200" startcolumn="13" />
+		</getAllConnectionSources>
+		<getConnectedSource kind="method" startline="208" startcolumn="37" >
+			<_source_components.get kind="call" startline="210" startcolumn="30" />
+		</getConnectedSource>
+		<removeActiveConnection kind="method" startline="214" startcolumn="30" >
+			<_source_components.remove kind="call" startline="216" startcolumn="9" />
+		</removeActiveConnection>
+		<addPassiveConnection kind="method" startline="222" startcolumn="30" >
+			<System.out.println kind="call" startline="226" startcolumn="13" />
+			<_source_components.put kind="call" startline="228" startcolumn="9" />
+		</addPassiveConnection>
+		<removePassiveConnection kind="method" startline="231" startcolumn="30" >
+			<removePassiveConnection kind="call" startline="233" startcolumn="9" />
+		</removePassiveConnection>
+		<removePassiveConnection kind="method" startline="239" startcolumn="30" >
+			<_source_components.remove kind="call" startline="242" startcolumn="40" />
+			<_source_components.put kind="call" startline="250" startcolumn="13" />
+		</removePassiveConnection>
+		<fetchAllSources kind="method" startline="253" startcolumn="29" >
+			<_source_components.keySet kind="call" startline="255" startcolumn="29" />
+			<sources_links.iterator kind="call" startline="259" startcolumn="25" />
+			<iter.hasNext kind="call" startline="262" startcolumn="15" />
+			<iter.next kind="call" startline="263" startcolumn="37" />
+			<source_link.getId kind="call" startline="264" startcolumn="31" />
+			<sources.add kind="call" startline="265" startcolumn="13" />
+		</fetchAllSources>
+</DefaultMetaReceive>
+<DefaultMetaSend kind="class" startline="29" startcolumn="14">
+		<initializeFields kind="method" startline="36" startcolumn="17" >
+		</initializeFields>
+		<initialize kind="method" startline="43" startcolumn="17" >
+			<initializeFields kind="call" startline="47" startcolumn="9" />
+		</initialize>
+		<getNumberOfDestinations kind="method" startline="50" startcolumn="29" >
+			<event_class.getName kind="call" startline="53" startcolumn="29" />
+			<_evtype_ids.get kind="call" startline="58" startcolumn="28" />
+			<ids.size kind="call" startline="60" startcolumn="26" />
+			<event_type.equals kind="call" startline="61" startcolumn="16" />
+			<event_class.getSuperclass kind="call" startline="64" startcolumn="31" />
+			<event_class.getName kind="call" startline="65" startcolumn="30" />
+		</getNumberOfDestinations>
+		<searchLinkKeys kind="method" startline="72" startcolumn="33" >
+			<links.elements kind="call" startline="74" startcolumn="28" />
+			<elks.hasMoreElements kind="call" startline="75" startcolumn="15" />
+			<elks.nextElement kind="call" startline="76" startcolumn="42" />
+			<nextlink.getId kind="call" startline="77" startcolumn="16" />
+			<equals kind="call" startline="77" startcolumn="33" />
+			<nextlink.getId kind="call" startline="77" startcolumn="16" />
+		</searchLinkKeys>
+		<addCompatibleDestination kind="method" startline="92" startcolumn="31" >
+			<_id_sockets.get kind="call" startline="96" startcolumn="40" />
+			<System.err.println kind="call" startline="100" startcolumn="13" />
+			<lks.add kind="call" startline="105" startcolumn="13" />
+			<lks.elements kind="call" startline="110" startcolumn="28" />
+			<elks.hasMoreElements kind="call" startline="111" startcolumn="15" />
+			<elks.nextElement kind="call" startline="112" startcolumn="40" />
+			<_id_sockets.get kind="call" startline="115" startcolumn="43" />
+			<nextsocket.socket.equals kind="call" startline="117" startcolumn="16" />
+			<lks.add kind="call" startline="124" startcolumn="9" />
+		</addCompatibleDestination>
+		<perform kind="method" startline="132" startcolumn="30" >
+			<event.getClass kind="call" startline="138" startcolumn="33" />
+			<event_class.getName kind="call" startline="140" startcolumn="33" />
+			<_evtype_ids.get kind="call" startline="148" startcolumn="40" />
+			<nids.elements kind="call" startline="150" startcolumn="41" />
+			<enids.hasMoreElements kind="call" startline="151" startcolumn="27" />
+			<enids.nextElement kind="call" startline="152" startcolumn="65" />
+			<addCompatibleDestination kind="call" startline="156" startcolumn="25" />
+			<explicit_links.add kind="call" startline="158" startcolumn="25" />
+			<search_type.equals kind="call" startline="162" startcolumn="20" />
+			<search_class.getSuperclass kind="call" startline="166" startcolumn="36" />
+			<search_class.getName kind="call" startline="167" startcolumn="35" />
+			<implicit_links.size kind="call" startline="171" startcolumn="16" />
+			<event.getClass kind="call" startline="172" startcolumn="85" />
+			<getName kind="call" startline="172" startcolumn="102" />
+			<event.getClass kind="call" startline="172" startcolumn="85" />
+			<System.err.println kind="call" startline="172" startcolumn="17" />
+			<event.getReceiverId kind="call" startline="178" startcolumn="17" />
+			<event.getReceiverId kind="call" startline="178" startcolumn="49" />
+			<equals kind="call" startline="178" startcolumn="71" />
+			<event.getReceiverId kind="call" startline="178" startcolumn="49" />
+			<event.getReceiverId kind="call" startline="180" startcolumn="29" />
+			<searchLinkKeys kind="call" startline="182" startcolumn="45" />
+			<Send kind="call" startline="183" startcolumn="21" />
+			<e.getMessage kind="call" startline="186" startcolumn="90" />
+			<System.err.println kind="call" startline="186" startcolumn="21" />
+			<e.printStackTrace kind="call" startline="187" startcolumn="21" />
+			<searchLinkKeys kind="call" startline="192" startcolumn="45" />
+			<_id_sockets.remove kind="call" startline="193" startcolumn="21" />
+			<implicit_links.elements kind="call" startline="199" startcolumn="36" />
+			<eids.hasMoreElements kind="call" startline="200" startcolumn="23" />
+			<eids.nextElement kind="call" startline="201" startcolumn="44" />
+			<Send kind="call" startline="203" startcolumn="30" />
+			<e.printStackTrace kind="call" startline="206" startcolumn="25" />
+			<_id_sockets.remove kind="call" startline="211" startcolumn="25" />
+		</perform>
+		<Send kind="method" startline="231" startcolumn="17" >
+			<_id_sockets.get kind="call" startline="234" startcolumn="52" />
+			<System.err.println kind="call" startline="236" startcolumn="17" />
+			<_base.getUniqueID kind="call" startline="244" startcolumn="39" />
+			<event.setSenderId kind="call" startline="244" startcolumn="21" />
+			<Daemon.getDaemonAddress kind="call" startline="245" startcolumn="41" />
+			<event.setSenderHost kind="call" startline="245" startcolumn="21" />
+			<Daemon.getDaemonPort kind="call" startline="246" startcolumn="41" />
+			<event.setSenderPort kind="call" startline="246" startcolumn="21" />
+			<dest.receiveEvent kind="call" startline="247" startcolumn="21" />
+			<socket.getRemoteSocketAddress kind="call" startline="256" startcolumn="84" />
+			<System.out.println kind="call" startline="256" startcolumn="25" />
+			<_base.getUniqueID kind="call" startline="263" startcolumn="43" />
+			<event.setSenderId kind="call" startline="263" startcolumn="25" />
+			<Daemon.getDaemonAddress kind="call" startline="264" startcolumn="45" />
+			<event.setSenderHost kind="call" startline="264" startcolumn="25" />
+			<Daemon.getDaemonPort kind="call" startline="265" startcolumn="45" />
+			<event.setSenderPort kind="call" startline="265" startcolumn="25" />
+			<event.saveState kind="call" startline="266" startcolumn="25" />
+		</Send>
+		<getComponentLinkType kind="method" startline="281" startcolumn="32" >
+			<_id_sockets.keys kind="call" startline="284" startcolumn="26" />
+			<ec.hasMoreElements kind="call" startline="286" startcolumn="15" />
+			<ec.nextElement kind="call" startline="287" startcolumn="37" />
+			<lik._id.equals kind="call" startline="288" startcolumn="17" />
+			<_id_sockets.get kind="call" startline="289" startcolumn="48" />
+			<link.add kind="call" startline="290" startcolumn="17" />
+		</getComponentLinkType>
+		<existDest kind="method" startline="296" startcolumn="33" >
+			<_id_sockets.get kind="call" startline="299" startcolumn="12" />
+		</existDest>
+		<addConnection kind="method" startline="312" startcolumn="30" >
+			<_evtype_ids.get kind="call" startline="314" startcolumn="32" />
+			<_evtype_ids.put kind="call" startline="317" startcolumn="13" />
+			<vids.contains kind="call" startline="319" startcolumn="13" />
+			<vids.addElement kind="call" startline="320" startcolumn="13" />
+			<System.out.println kind="call" startline="323" startcolumn="13" />
+			<System.out.println kind="call" startline="324" startcolumn="13" />
+			<System.out.println kind="call" startline="325" startcolumn="13" />
+			<System.out.println kind="call" startline="326" startcolumn="13" />
+			<System.out.println kind="call" startline="327" startcolumn="13" />
+			<_id_sockets.put kind="call" startline="330" startcolumn="9" />
+		</addConnection>
+		<ISConnected kind="method" startline="333" startcolumn="33" >
+			<_evtype_ids.get kind="call" startline="335" startcolumn="29" />
+			<v.contains kind="call" startline="338" startcolumn="13" />
+		</ISConnected>
+		<getAllConnectionDestinations kind="method" startline="343" startcolumn="35" >
+			<_evtype_ids.keys kind="call" startline="346" startcolumn="28" />
+			<enum.hasMoreElements kind="call" startline="347" startcolumn="15" />
+			<enum.nextElement kind="call" startline="348" startcolumn="43" />
+			<_evtype_ids.get kind="call" startline="349" startcolumn="33" />
+			<v.size kind="call" startline="353" startcolumn="28" />
+			<v.elementAt kind="call" startline="354" startcolumn="43" />
+			<linkkeys.add kind="call" startline="356" startcolumn="17" />
+		</getAllConnectionDestinations>
+		<removeLink kind="method" startline="375" startcolumn="31" >
+			<System.out.println kind="call" startline="379" startcolumn="13" />
+			<getOutputStream kind="call" startline="386" startcolumn="59" />
+			<dos.writeInt kind="call" startline="388" startcolumn="21" />
+			<_base.getUniqueID kind="call" startline="389" startcolumn="34" />
+			<dos.writeUTF kind="call" startline="389" startcolumn="21" />
+			<dos.writeUTF kind="call" startline="390" startcolumn="21" />
+			<dos.writeUTF kind="call" startline="391" startcolumn="21" />
+			<dos.writeBoolean kind="call" startline="392" startcolumn="21" />
+			<Daemon.removePublicConnectionSource kind="call" startline="398" startcolumn="13" />
+			<getOutputStream kind="call" startline="404" startcolumn="59" />
+			<dos.writeInt kind="call" startline="406" startcolumn="21" />
+			<dos.writeBoolean kind="call" startline="407" startcolumn="21" />
+			<_base.getUniqueID kind="call" startline="416" startcolumn="39" />
+			<dest.removeDestConnection kind="call" startline="416" startcolumn="13" />
+		</removeLink>
+		<removeConnection kind="method" startline="423" startcolumn="30" >
+			<System.out.println kind="call" startline="427" startcolumn="13" />
+			<_evtype_ids.get kind="call" startline="429" startcolumn="29" />
+			<v.remove kind="call" startline="432" startcolumn="9" />
+			<v.isEmpty kind="call" startline="433" startcolumn="13" />
+			<_evtype_ids.remove kind="call" startline="434" startcolumn="13" />
+			<_id_sockets.remove kind="call" startline="437" startcolumn="40" />
+			<removeLink kind="call" startline="438" startcolumn="9" />
+		</removeConnection>
+		<changePhysicalLink kind="method" startline="446" startcolumn="30" >
+			<_id_sockets.remove kind="call" startline="453" startcolumn="40" />
+			<_id_sockets.put kind="call" startline="454" startcolumn="13" />
+			<removeLink kind="call" startline="459" startcolumn="9" />
+		</changePhysicalLink>
+</DefaultMetaSend>
+</files>

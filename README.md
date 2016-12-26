@@ -32,6 +32,7 @@ TODO
   * classes/HTMLTree.jar
   * classes3/OcamlFunctionViewer.jar
     * how to create demo file
+* separate package for 3apps
 
 ----
 Takashi Masuyama < mamewotoko@gmail.com >  

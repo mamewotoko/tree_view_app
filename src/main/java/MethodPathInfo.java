@@ -1,15 +1,8 @@
 // MethodPathInfo.java	Created      : Mon Sep 29 00:32:49 2003
-//			Last modified: Mon Nov 10 01:32:43 2003
-// Compile: make #
-// Compile: javac MethodPathInfo.java #
-// Execute: java MethodPathInfo #
-// FTP Directory: sources/java #
-//------------------------------------------------------------
-//
+//			Last modified: Mon Dec 26 09:45:54 2016
 import java.io.*;
 import java.util.*;
 import javax.swing.tree.*;
-
 
 public class MethodPathInfo {
     public MethodPathInfo(TreeNode[] path, String typestr)

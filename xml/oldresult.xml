@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="euc-jp"?>
+<files>
+  <Daemon>
+    <getReference />
+    <Daemon />
+    <Daemon>
+      <InetAddress.getLocalHost />
+      <localhost.getHostName />
+      <e.printStackTrace />
+      <System.exit />
+      <System.err.println />
+      <System.err.println />
+    </Daemon>
+    <Daemon />
+    <endDaemon />
+    <isRunning />
+    <run>
+      <_server_socket.accept />
+      <System.err.println />
+      <e.toString />
+      <System.err.println />
+      <System.err.println />
+      <e.toString />
+      <System.err.println />
+      <System.out.println />
+      <t.toString />
+      <System.err.println />
+      <tdr.start />
+    </run>
+    <establishConnection>
+      <establishConnection />
+    </establishConnection>
+    <establishConnection>
+      <System.out.println />
+      <System.out.println />
+      <System.out.println />
+      <Thread.currentThread />
+      <dumpStack />
+      <Thread.currentThread />
+      <System.out.println />
+      <System.out.println />
+      <System.out.println />
+      <e.printStackTrace />
+      <System.out.println />
+      <System.out.println />
+      <System.out.println />
+      <e2.printStackTrace />
+      <req_socket.getOutputStream />
+      <req_socket.getInputStream />
+      <dos.writeByte />
+      <dos.flush />
+      <dis.readByte />
+      <System.err.println />
+    </establishConnection>
+    <getFileContents>
+      <file.length />
+      <fis.read />
+    </getFileContents>
+    <registerSentComponent>
+      <Integer.toString />
+      <_sent_component_cache.add />
+    </registerSentComponent>
+    <cleanSentComponentCache>
+      <_sent_component_cache.clear />
+    </cleanSentComponentCache>
+    <alreadySentComponent>
+      <Integer.toString />
+      <_sent_component_cache.contains />
+    </alreadySentComponent>
+    <fetchMigrateComponent>
+      <Daemon._migration_repository.get />
+    </fetchMigrateComponent>
+    <bindMigrateComponentEvent>
+      <System.out.println />
+      <Thread.currentThread />
+      <dumpStack />
+      <Thread.currentThread />
+      <System.out.println />
+      <Daemon.fetchMigrateComponent />
+      <sleep />
+      <Daemon.fetchMigrateComponent />
+      <Daemon.addConnectedBy />
+      <System.out.println />
+      <dest.bindEventDest />
+      <System.out.println />
+      <establishConnection />
+      <socket.getOutputStream />
+      <socket.getInputStream />
+      <dos.writeByte />
+      <dos.writeUTF />
+      <dos.writeUTF />
+      <dos.writeInt />
+      <dos.writeUTF />
+      <dos.writeUTF />
+      <dis.readBoolean />
+      <System.err.println />
+      <Daemon.addPublicChannelSource />
+      <System.out.println />
+    </bindMigrateComponentEvent>
+    <getNewAddress>
+      <_migrate_to.get />
+    </getNewAddress>
+    <bindAfterMigrationEvent>
+      <System.out.println />
+      <Daemon.fetchComponent />
+      <Daemon.getNewAddress />
+      <System.err.println />
+      <Daemon.fetchMigrateComponent />
+      <Daemon.addNewComponentInforme />
+      <transferLink />
+      <Daemon.fetchComponent />
+      <Daemon.getNewAddress />
+      <System.err.println />
+      <Daemon.fetchMigrateComponent />
+      <Daemon.addNewComponentInforme />
+      <transferLink />
+      <transferLink />
+      <System.out.println />
+      <dest.bindEventDest />
+      <establishConnection />
+      <socket.getOutputStream />
+      <socket.getInputStream />
+      <dos.writeUTF />
+      <dos.writeUTF />
+      <dos.writeUTF />
+      <dis.readBoolean />
+      <dis.readUTF />
+      <dis.readInt />
+      <System.out.println />
+      <socket.close />
+      <System.out.println />
+      <dest_address.equals />
+      <dos.writeByte />
+      <dos.writeUTF />
+      <dos.writeInt />
+      <Daemon.addPublicChannelSource />
+      <System.out.println />
+      <Daemon.bindMigrateComponentEvent />
+      <System.err.println />
+    </bindAfterMigrationEvent>
+    <findComponent>
+      <findComponent />
+    </findComponent>
+    <findComponent>
+      <findComponent />
+    </findComponent>
+    <findComponent>
+      <findComponent />
+    </findComponent>
+    <findComponent>
+      <Daemon.getDaemonAddress />
+      <address.equals />
+      <Daemon.getDaemonPort />
+      <coreFindComponent />
+      <establishConnection />
+      <socket.getInputStream />
+      <socket.getOutputStream />
+      <System.err.println />
+      <dos.writeUTF />
+      <dis.readInt />
+      <Integer.toString />
+      <System.err.println />
+      <dis.readUTF />
+    </findComponent>
+    <pingDaemon>
+      <pingDaemon />
+    </pingDaemon>
+    <pingDaemon>
+      <Daemon.getDaemonAddress />
+      <address.equals />
+      <Daemon.getDaemonPort />
+      <establishConnection />
+      <socket.getInputStream />
+      <dis.readBoolean />
+    </pingDaemon>
+    <coreFindComponent>
+      <Daemon.fetchComponentsByClass />
+      <getUniqueID />
+      <comps />
+    </coreFindComponent>
+    <unregistery>
+      <unregistery />
+    </unregistery>
+    <unregistery>
+      <Daemon.getDaemonAddress />
+      <host_dest.equals />
+      <Daemon.getDaemonPort />
+      <Daemon.unregister />
+      <establishConnection />
+      <socket.getOutputStream />
+      <socket.getInputStream />
+      <dos.writeUTF />
+      <dos.writeInt />
+      <dis.readBoolean />
+    </unregistery>
+    <unregister>
+      <Daemon.unregisterComponent />
+      <Daemon.unregisterClass />
+      <Daemon.unregisterBytecode />
+      <Daemon.unregisterFile />
+    </unregister>
+    <getDaemonClassLoader />
+    <registerComponent>
+      <Daemon._repository.contains />
+      <Daemon.generateUniqueID />
+      <component.setUniqueID />
+      <bindComonent />
+    </registerComponent>
+    <unregisterComponent>
+      <_repository.get />
+      <_repository.remove />
+    </unregisterComponent>
+    <fetchComponent>
+      <_repository.get />
+    </fetchComponent>
+    <fetchComponentsByClass>
+      <Class.forName />
+      <_repository.values />
+      <iterator />
+      <_repository.values />
+      <enum.hasNext />
+      <enum.next />
+      <comp.getClass />
+      <compclass.isAssignableFrom />
+      <selected.add />
+      <selected.size />
+      <selected.elementAt />
+    </fetchComponentsByClass>
+    <getDaemonID>
+      <toString />
+    </getDaemonID>
+    <getDaemonAddress />
+    <getDaemonPort />
+    <generateUniqueID>
+      <component.getClass />
+      <component_class.getName />
+      <toString />
+      <System.currentTimeMillis />
+      <toString />
+      <component.setUniqueID />
+    </generateUniqueID>
+    <registerBytecode>
+      <Daemon._bytecode_repository.containsKey />
+      <Daemon._bytecode_repository.put />
+    </registerBytecode>
+    <unregisterBytecode>
+      <Daemon._bytecode_repository.containsKey />
+      <Daemon._bytecode_repository.remove />
+    </unregisterBytecode>
+    <fetchBytecode>
+      <Daemon._bytecode_repository.containsKey />
+      <Daemon._bytecode_repository.get />
+    </fetchBytecode>
+    <registerClass>
+      <System.out.println />
+      <System.out.println />
+      <Daemon._class_repository.contains />
+      <reg_class.getName />
+      <Daemon._class_repository.put />
+    </registerClass>
+    <unregisterClass>
+      <_class_repository.get />
+      <_class_repository.remove />
+    </unregisterClass>
+    <fetchClass>
+      <_class_repository.get />
+      <Class.forName />
+    </fetchClass>
+    <registerFile>
+      <vcontents.add />
+      <Daemon._file_repository.contains />
+      <Daemon._file_repository.put />
+    </registerFile>
+    <unregisterFile>
+      <_file_repository.get />
+      <_file_repository.remove />
+    </unregisterFile>
+    <fetchFile>
+      <_file_repository.get />
+      <reg_file.size />
+      <reg_file.size />
+      <reg_file.elementAt />
+      <byteValue />
+    </fetchFile>
+    <addPublicChannelSource>
+      <new_socket.getOutputStream />
+      <_public_channels_source.get />
+      <_public_channels_source.put />
+      <dos.writeBoolean />
+      <_public_channels_source.put />
+      <dos.writeBoolean />
+    </addPublicChannelSource>
+    <removePublicChannelsDest>
+      <_public_links.entrySet />
+      <link_set.iterator />
+      <iter.hasNext />
+      <iter.next />
+      <link_entry.getValue />
+      <link_components.contains />
+      <link_components.remove />
+    </removePublicChannelsDest>
+    <addPublicChannelDest>
+      <_public_channels_dest.get />
+      <System.out.println />
+      <socketthread.join />
+      <_public_channels_dest.put />
+      <System.out.println />
+      <_public_links.put />
+      <_source_address.put />
+    </addPublicChannelDest>
+    <removePublicConnectionSource>
+      <_public_channels_source.keys />
+      <ec.hasMoreElements />
+      <ec.nextElement />
+      <_public_channels_source.get />
+      <su.socket.getOutputStream />
+      <System.out.println />
+      <_public_channels_source.remove />
+      <dos.writeInt />
+      <dos.flush />
+      <dos.close />
+      <System.out.println />
+      <System.out.println />
+    </removePublicConnectionSource>
+    <removePublicConnectionDest>
+      <System.out.println />
+      <_public_links.get />
+      <link_entries.remove />
+      <link_entries.size />
+      <System.out.println />
+      <_public_links.remove />
+      <_source_address.remove />
+    </removePublicConnectionDest>
+    <removeBrutalDeconnectionSource>
+      <_public_channels_source.keys />
+      <ec.hasMoreElements />
+      <ec.nextElement />
+      <_public_channels_source.get />
+      <_public_channels_source.remove />
+    </removeBrutalDeconnectionSource>
+    <updateChannelType>
+      <Daemon.getDaemonAddress />
+      <new_address.equals />
+      <Daemon.getDaemonAddress />
+      <Daemon.getDaemonPort />
+    </updateChannelType>
+    <getNumberOfComponentInforme>
+      <intValue />
+    </getNumberOfComponentInforme>
+    <addNewComponentInforme>
+      <intValue />
+    </addNewComponentInforme>
+    <addNewComponentInforme>
+      <_number_of_connecting_component.get />
+      <intValue />
+      <_number_of_connecting_component.put />
+    </addNewComponentInforme>
+    <migrationSourceInitialisation>
+      <_number_of_connecting_component.put />
+      <unregisterComponent />
+    </migrationSourceInitialisation>
+    <cleanMigrationSourceRegistery>
+      <_migrate_to.remove />
+      <_migration_repository.remove />
+      <_number_of_connecting_component.remove />
+    </cleanMigrationSourceRegistery>
+    <migrationDestInitialisation>
+      <_migration_repository.put />
+    </migrationDestInitialisation>
+    <cleanMigrationDestRegistery>
+      <_connected_by.remove />
+    </cleanMigrationDestRegistery>
+    <addConnectedBy>
+      <local_id.equals />
+      <_connected_by.get />
+      <who.add />
+      <who.contains />
+      <who.add />
+    </addConnectedBy>
+    <noMoreWait>
+      <connect_by.elements />
+      <ec.nextElement />
+    </noMoreWait>
+    <informeConnectionSource>
+      <getDaemonAddress />
+      <getDaemonPort />
+      <System.err.println />
+      <System.out.println />
+      <socket.getOutputStream />
+      <dos.writeUTF />
+      <dos.writeUTF />
+      <dis.readInt />
+    </informeConnectionSource>
+    <coreMigrateComponent>
+      <System.out.println />
+      <local.suspendActivity />
+      <establishConnection />
+      <socket.getOutputStream />
+      <local.getUniqueID />
+      <local.getRoles />
+      <dis.readBoolean />
+      <comp.getUniqueID />
+      <local.getSourceLinkKey />
+      <System.out.println />
+      <local.getDestConnection />
+      <connections_dest.size />
+      <System.out.println />
+      <oos.writeObject />
+      <System.out.println />
+      <getDaemonAddress />
+      <local.getUniqueID />
+      <local.Metamorphose />
+    </coreMigrateComponent>
+    <waitForReconnection>
+      <_migration_socket.getOutputStream />
+      <Thread.currentThread />
+      <Thread.currentThread />
+      <connection_source.elements />
+      <ec.nextElement />
+      <local.getUniqueID />
+      <local.getUniqueID />
+      <local.noMoreWait />
+      <sleep />
+      <getNumberOfComponentInforme />
+      <local.getUniqueID />
+      <System.out.println />
+      <cleanMigrationSourceRegistery />
+      <System.out.println />
+      <System.err.println />
+      <System.err.println />
+      <System.err.println />
+      <System.out.println />
+    </waitForReconnection>
+    <migrateComponent>
+      <source_address.equals />
+      <Daemon.getDaemonAddress />
+      <source_address.equals />
+      <Daemon.getDaemonPort />
+      <System.out.println />
+      <Daemon.fetchComponent />
+      <Daemon.fetchComponent />
+      <source.isMigrable />
+      <Daemon.coreMigrateComponent />
+      <Daemon.waitForReconnection />
+      <System.out.println />
+      <System.out.println />
+      <establishConnection />
+      <socket.getOutputStream />
+      <socket.getInputStream />
+      <dos.writeUTF />
+      <dos.writeUTF />
+      <dos.writeInt />
+      <System.out.println />
+      <dis.readBoolean />
+      <System.out.println />
+      <System.out.println />
+      <dis.readBoolean />
+      <System.out.println />
+      <System.out.println />
+      <dis.readBoolean />
+      <System.out.println />
+    </migrateComponent>
+    <getDestComponents>
+      <event.getSenderId />
+      <_public_links.get />
+    </getDestComponents>
+    <bindComonent>
+      <_repository.put />
+    </bindComonent>
+  </Daemon>
+  <DaemonRequest>
+    <DaemonRequest>
+      <_socket.getInputStream />
+      <_socket.getOutputStream />
+      <System.err.println />
+    </DaemonRequest>
+    <run>
+      <dis.readByte />
+      <e.toString />
+      <System.err.println />
+      <System.err.println />
+      <SendComponentServer.receiveComponent />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <InstantiateComponentServer.instantiateComponent />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <ConnectProtocolServer.connectComponentSource />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <ConnectProtocolServer.connectComponentDest />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <ConnectProtocolServer.bindEvent />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <AssignRoleServer.assignRole />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <SystemEventProtocolServer.systemevent />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <findComponent />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <pingDaemon />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <RequestClassServer.requestClass />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <DisconnectProtocolServer.removeConnection />
+      <System.err.println />
+      <RemoveComponentServer.removeComponent />
+      <System.err.println />
+      <RemoveComponentServer.disconnectComponent />
+      <System.err.println />
+      <DisconnectProtocolServer.removeAllConnections />
+      <System.err.println />
+      <unregister />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.out.println />
+      <migrateComponent />
+      <System.out.println />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <receiveMigrateComponent />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <changePhysicalLink />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <Thread.currentThread />
+      <getName />
+      <Thread.currentThread />
+      <System.err.println />
+      <bindMigrateComponentEvent />
+      <System.err.println />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.err.println />
+      <bindAfterMigrationEvent />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <System.out.println />
+      <System.err.println />
+      <System.err.println />
+      <t.printStackTrace />
+    </run>
+    <bindMigrateComponentEvent>
+      <Thread.currentThread />
+      <Thread.currentThread />
+      <dis.readByte />
+      <dis.readUTF />
+      <dis.readInt />
+      <dis.readUTF />
+      <sleep />
+      <System.err.println />
+      <dos.writeBoolean />
+      <System.out.println />
+      <Daemon.addConnectedBy />
+      <System.err.println />
+    </bindMigrateComponentEvent>
+    <giveNewAddress>
+      <dos.writeBoolean />
+      <Daemon.getNewAddress />
+      <dos.writeUTF />
+      <dos.writeInt />
+      <Daemon.fetchMigrateComponent />
+      <System.out.println />
+      <Daemon.addNewComponentInforme />
+      <transferLink />
+      <System.err.println />
+    </giveNewAddress>
+    <bindAfterMigrationEvent>
+      <dos.writeByte />
+      <dis.readUTF />
+      <dis.readUTF />
+      <dis.readUTF />
+      <ConnectProtocolCore.coreBindCheckDest />
+      <giveNewAddress />
+      <Daemon.fetchComponent />
+      <giveNewAddress />
+      <local.transferLink />
+      <Daemon.addConnectedBy />
+      <dos.writeBoolean />
+      <dis.readByte />
+      <dis.readUTF />
+      <dis.readInt />
+      <Daemon.addPublicChannelDest />
+      <local.bindEventDest />
+    </bindAfterMigrationEvent>
+    <findComponent>
+      <dos.writeByte />
+      <dis.readUTF />
+      <System.err.println />
+      <Daemon.coreFindComponent />
+      <System.err.println />
+      <dos.writeInt />
+      <Integer.toString />
+      <System.err.println />
+      <dos.writeInt />
+      <dos.writeUTF />
+    </findComponent>
+    <pingDaemon>
+      <dos.writeByte />
+      <dos.writeBoolean />
+    </pingDaemon>
+    <unregister>
+      <dos.writeByte />
+      <dis.readUTF />
+      <dis.readInt />
+      <Daemon.unregister />
+      <dos.writeBoolean />
+    </unregister>
+    <migrateComponent>
+      <dos.writeByte />
+      <dis.readUTF />
+      <dis.readUTF />
+      <dis.readInt />
+      <Daemon.fetchComponent />
+      <dos.writeBoolean />
+      <Daemon.fetchComponent />
+      <dos.writeBoolean />
+      <dos.writeBoolean />
+      <source.isMigrable />
+      <dos.writeBoolean />
+      <dos.writeBoolean />
+      <Daemon.coreMigrateComponent>
+        <local.isInitialized />
+        <local.initialize />
+        <local.beforeMigrate />
+        <socket.getInputStream />
+        <local.sendState />
+        <oos.writeUTF />
+        <oos.writeObject />
+        <System.out.println />
+        <migrationSourceInitialisation>
+          <_migrate_to.put />
+          <_migration_repository.put />
+        </migrationSourceInitialisation>
+        <oos.writeObject />
+        <local.waitStopSending>
+          <waitThread />
+        </local.waitStopSending>
+        <connections_dest.elements />
+        <connections_dest.get />
+        <local.removeSourceConnection>
+          <_meta_send.removeConnection />
+        </local.removeSourceConnection>
+        <oos.flush />
+        <local.getUniqueID />
+        <getDaemonPort />
+        <bindMigrateComponentEvent>
+          <System.out.println />
+          <dumpStack />
+          <dos.writeByte />
+          <dis.readUTF />
+          <System.out.println />
+          <dis.readUTF />
+          <Daemon.fetchMigrateComponent />
+          <Daemon.fetchMigrateComponent />
+          <dos.writeBoolean />
+          <Daemon.addPublicChannelDest>
+            <new_socket.getInputStream />
+            <dis.readBoolean />
+            <socketthread.isAlive />
+            <System.out.println />
+            <System.out.println />
+            <_public_links.get />
+            <link_entries.addElement />
+          </Daemon.addPublicChannelDest>
+          <local.bindEventDest>
+            <System.out.println />
+            <dumpStack />
+            <isInitialized />
+            <_meta_receive.addActiveConnection />
+          </local.bindEventDest>
+          <t.getMessage />
+        </bindMigrateComponentEvent>
+      </Daemon.coreMigrateComponent>
+      <System.out.println />
+      <Daemon.waitForReconnection>
+        <_migration_socket.getInputStream />
+        <System.out.println />
+        <dumpStack />
+        <local.getSourceConnection />
+        <ec.hasMoreElements />
+        <System.out.println />
+        <Daemon.informeConnectionSource>
+          <System.out.println />
+          <source_address.equals />
+          <Daemon.fetchComponent />
+          <local.changePhysicalLink>
+            <link.elements />
+            <getUniqueID />
+            <Daemon.fetchMigrateComponent />
+          </local.changePhysicalLink>
+          <establishConnection />
+          <socket.getInputStream />
+          <dos.writeUTF />
+          <dos.writeInt />
+        </Daemon.informeConnectionSource>
+        <Daemon.addNewComponentInforme>
+          <_number_of_connecting_component.get />
+          <_number_of_connecting_component.put />
+        </Daemon.addNewComponentInforme>
+        <System.out.println />
+        <local.getUniqueID />
+        <dos.writeInt />
+        <getNumberOfComponentInforme>
+          <_number_of_connecting_component.get />
+        </getNumberOfComponentInforme>
+        <local.getUniqueID />
+        <local.terminate />
+        <dis.readBoolean />
+        <_migration_socket.getPort />
+        <_migration_socket.getRemoteSocketAddress />
+        <e.printStackTrace />
+      </Daemon.waitForReconnection>
+      <dos.writeBoolean />
+      <dos.flush />
+      <System.out.println />
+    </migrateComponent>
+    <receiveMigrateComponent>
+      <dos.writeByte />
+      <System.out.println />
+      <cis.readObject />
+      <cis.readUTF />
+      <local.setUniqueID />
+      <System.out.println />
+      <local.afterMigrate />
+      <System.out.println />
+      <cis.readObject />
+      <roles.elements />
+      <ec.hasMoreElements />
+      <ec.nextElement />
+      <local.assignRole />
+      <System.out.println />
+      <Daemon.migrationDestInitialisation>
+        <_connected_by.put />
+      </Daemon.migrationDestInitialisation>
+      <System.out.println />
+      <dos.writeBoolean />
+      <cis.readObject />
+      <System.out.println />
+      <local.setBuffer>
+        <buffering />
+      </local.setBuffer>
+      <System.out.println />
+      <System.out.println />
+      <cis.readObject />
+      <System.out.println />
+      <dest_connections_definition.elements />
+      <ec.hasMoreElements />
+      <ec.nextElement />
+      <Daemon.updateChannelType>
+        <address.equals />
+        <Daemon.getDaemonAddress />
+        <Daemon.getDaemonPort />
+        <new_address.equals />
+        <System.out.println />
+      </Daemon.updateChannelType>
+      <local.reConnectComponent>
+        <getUniqueID />
+        <Daemon.getDaemonPort />
+        <Daemon.fetchComponent />
+        <getUniqueID />
+        <_meta_send.addConnection />
+      </local.reConnectComponent>
+      <local.restart />
+      <System.out.println />
+      <dis.readInt />
+      <System.out.println />
+      <Daemon.noMoreWait>
+        <_connected_by.get />
+        <ec.hasMoreElements />
+        <connect_by.size />
+      </Daemon.noMoreWait>
+      <sleep />
+      <System.out.println />
+      <Daemon.cleanMigrationDestRegistery>
+        <_migration_repository.remove />
+        <Daemon._repository.put />
+      </Daemon.cleanMigrationDestRegistery>
+      <System.out.println />
+      <dos.writeBoolean />
+    </receiveMigrateComponent>
+    <changePhysicalLink>
+      <dos.writeByte />
+      <dis.readUTF />
+      <dis.readUTF />
+      <dis.readUTF />
+      <dis.readInt />
+      <Daemon.fetchComponent />
+      <dos.writeInt />
+      <Daemon.fetchComponent />
+      <dos.writeInt />
+      <local.changePhysicalLink>
+        <_meta_send.getComponentLinkType />
+        <ec.hasMoreElements />
+        <Daemon.updateChannelType />
+        <Daemon.getDaemonAddress />
+        <Daemon.bindMigrateComponentEvent />
+        <_meta_send.changePhysicalLink />
+      </local.changePhysicalLink>
+      <dos.writeInt />
+    </changePhysicalLink>
+  </DaemonRequest>
+  <Component>
+    <getUniqueID />
+    <setUniqueID />
+    <compareClassSource>
+      <source_class.getInterfaces />
+      <connect_class.isAssignableFrom />
+      <isAssignableFrom />
+      <interfaces />
+    </compareClassSource>
+    <compareClassDest>
+      <dest_class.getInterfaces />
+      <isAssignableFrom />
+      <interfaces />
+    </compareClassDest>
+    <testType>
+      <Daemon.fetchClass />
+      <Class.forName />
+      <System.err.println />
+      <getClass />
+      <compareClassSource />
+      <getClass />
+      <compareClassDest />
+      <_roles.iterator />
+      <iter.hasNext />
+      <iter.next />
+      <role.getClass />
+      <role.getClass />
+      <getName />
+      <role.getClass />
+      <role_class.getName />
+      <System.err.print />
+      <compareClassSource />
+      <compareClassDest />
+    </testType>
+    <isReceiver>
+      <testType />
+    </isReceiver>
+    <isSender>
+      <testType />
+    </isSender>
+    <addDynamicType>
+      <_dynamic_type.get />
+      <_dynamic_type.put />
+      <types.contains />
+      <types.add />
+      <updateAllDynamicTypes />
+    </addDynamicType>
+    <updateAllDynamicTypes>
+      <_all_dynamic_types.clear />
+      <_dynamic_type.values />
+      <iterator />
+      <_dynamic_type.values />
+      <iter.hasNext />
+      <iter.next />
+      <types.size />
+      <types.get />
+      <_all_dynamic_types.contains />
+      <System.err.println />
+      <_all_dynamic_types.add />
+    </updateAllDynamicTypes>
+    <removeDynamicTypes>
+      <_dynamic_type.remove />
+      <updateAllDynamicTypes />
+    </removeDynamicTypes>
+    <sendEvent />
+    <sendEvent />
+    <send>
+      <sendEvent />
+    </send>
+    <send>
+      <sendEvent />
+    </send>
+    <receiveEvent />
+    <bindEventSource />
+    <bindEventDest />
+    <assignRole />
+    <unAssignRole />
+    <checkRole />
+    <changePhysicalLink />
+    <removeSourceConnection />
+    <removeDestConnection />
+    <removeDestConnection />
+    <IsItConnectedTo />
+    <getAllConnectionSources />
+    <getConnectedSource />
+    <getAllConnectionDestinations />
+    <transferLink />
+    <isMigrable />
+    <initialize />
+    <isInitialized />
+    <remove />
+    <finalize>
+      <System.err.println />
+    </finalize>
+  </Component>
+  <ComponentLocalisation>
+    <ComponentLocalisation />
+    <hashCode>
+      <_id.hashCode />
+      <_address.hashCode />
+    </hashCode>
+    <equals>
+      <_id.equals />
+      <_address.equals />
+    </equals>
+  </ComponentLocalisation>
+  <ComponentMap>
+    <ComponentMap />
+    <put>
+      <put />
+    </put>
+    <fetchEntry>
+      <id.equals />
+      <get />
+    </fetchEntry>
+    <getAddress>
+      <fetchEntry />
+      <entry.getAddress />
+    </getAddress>
+    <getPort>
+      <fetchEntry />
+      <entry.getPort />
+    </getPort>
+    <remove>
+      <remove />
+    </remove>
+  </ComponentMap>
+  <DefaultComponent>
+    <remove />
+    <sendEvent>
+      <event.setReceiverId />
+      <_meta_out_queue.queue />
+    </sendEvent>
+    <sendEvent>
+      <event.setReceiverId />
+      <_meta_out_queue.queue />
+    </sendEvent>
+    <receiveEvent>
+      <_meta_receive.handleEvent />
+      <e.printStackTrace />
+    </receiveEvent>
+    <getConnectedSource>
+      <_meta_receive.getConnectedSource />
+    </getConnectedSource>
+    <bindEventSource>
+      <isInitialized />
+      <initialize />
+      <_meta_send.existDest />
+      <getUniqueID />
+      <Daemon.getDaemonAddress />
+      <Daemon.getDaemonPort />
+      <ConnectProtocolClient.bindEvent />
+      <System.out.println />
+      <t.getMessage />
+      <System.err.println />
+      <t.printStackTrace />
+      <Daemon.fetchComponent />
+      <_meta_send.addConnection />
+      <_meta_send.addConnection />
+    </bindEventSource>
+    <changePhysicalLink>
+      <ec.nextElement />
+      <Daemon.getDaemonPort />
+      <link.size />
+    </changePhysicalLink>
+    <bindEventDest>
+      <Thread.currentThread />
+      <Thread.currentThread />
+      <initialize />
+      <_meta_receive.addPassiveConnection />
+    </bindEventDest>
+    <removeSourceConnection>
+      <_meta_send.removeConnection />
+    </removeSourceConnection>
+    <removeSourceConnection>
+      <removeSourceConnection />
+    </removeSourceConnection>
+    <removeDestConnection>
+      <removeDestConnection />
+    </removeDestConnection>
+    <removeDestConnection>
+      <_meta_receive.removePassiveConnection />
+    </removeDestConnection>
+    <IsItConnectedTo>
+      <_meta_send.ISConnected />
+    </IsItConnectedTo>
+    <getAllConnectionSources>
+      <_meta_receive.getAllConnectionSources />
+    </getAllConnectionSources>
+    <getAllConnectionDestinations>
+      <_meta_send.getAllConnectionDestinations />
+    </getAllConnectionDestinations>
+    <generateUniqueRoleID>
+      <role.getClass />
+      <toString />
+      <role.getClass />
+      <Integer.toString />
+    </generateUniqueRoleID>
+    <assignRole>
+      <isInitialized />
+      <role.beforeEvents />
+      <role.afterEvents />
+      <role.receiveEvents />
+      <role.sendEvents />
+      <role.inFilterEvents />
+      <role.outFilterEvents />
+      <System.err.println />
+      <isReceiver />
+      <isReceiver />
+      <isReceiver />
+      <System.err.println />
+      <isSender />
+      <checkRole />
+      <role.checkComponent />
+      <addDynamicType />
+      <System.err.println />
+      <addDynamicType />
+      <_roles.addElement />
+      <generateUniqueRoleID />
+      <_role_ids.put />
+      <_meta_in_fetch.assignRole />
+      <_meta_exec.assignRole />
+      <_meta_out_fetch.assignRole />
+      <role.initialize />
+    </assignRole>
+    <unAssignRole>
+      <isInitialized />
+      <_role_ids.get />
+      <_roles.contains />
+      <removeDynamicTypes />
+      <_meta_in_fetch.unAssignRole />
+      <_meta_exec.unAssignRole />
+      <_meta_out_fetch.unAssignRole />
+      <_roles.remove />
+      <_role_ids.remove />
+    </unAssignRole>
+    <createMetaObjects>
+      <System.out.println />
+      <createMetaReceive />
+      <createMetaInQueue />
+      <createMetaInFetch />
+      <createMetaExec />
+      <createMetaOutQueue />
+      <createMetaOutFetch />
+      <createMetaSend />
+    </createMetaObjects>
+    <initAllMetaObjects>
+      <System.out.println />
+      <initMetaInQueue />
+      <initMetaExec />
+      <initMetaInFetch />
+      <initMetaOutQueue />
+      <initMetaSend />
+      <initMetaOutFetch />
+      <initMetaReceive />
+    </initAllMetaObjects>
+    <initAllFieldsOfMetaObjects>
+      <initFieldsOfMetaInQueue />
+      <initFieldsOfMetaExec />
+      <initFieldsOfMetaInFetch />
+      <initFieldsOfMetaOutQueue />
+      <initFieldsOfMetaSend />
+      <initFieldsOfMetaOutFetch />
+      <initFieldsOfMetaReceive />
+    </initAllFieldsOfMetaObjects>
+    <postInitAllMetaObjects>
+      <postInitMetaReceive />
+      <postInitMetaInQueue />
+      <postInitMetaInFetch />
+      <postInitMetaExec />
+      <postInitMetaOutQueue />
+      <postInitMetaOutFetch />
+      <postInitMetaSend />
+    </postInitAllMetaObjects>
+    <initializeFields>
+      <System.out.println />
+      <isInitialized />
+      <createMetaObjects />
+      <initAllFieldsOfMetaObjects />
+      <postInitAllMetaObjects />
+    </initializeFields>
+    <initialize>
+      <System.out.println />
+      <isInitialized />
+      <createMetaObjects />
+      <initAllMetaObjects />
+      <postInitAllMetaObjects />
+    </initialize>
+    <createMetaReceive />
+    <getMetaReceive />
+    <initMetaReceive>
+      <_meta_receive.initialize />
+    </initMetaReceive>
+    <postInitMetaReceive />
+    <createMetaInQueue />
+    <getMetaInQueue />
+    <initMetaInQueue>
+      <_meta_in_queue.initialize />
+    </initMetaInQueue>
+    <postInitMetaInQueue>
+      <_meta_in_queue.postInit />
+    </postInitMetaInQueue>
+    <createMetaInFetch />
+    <getMetaInFetch />
+    <initMetaInFetch>
+      <_meta_in_fetch.initialize />
+    </initMetaInFetch>
+    <postInitMetaInFetch />
+    <createMetaExec />
+    <getMetaExec />
+    <initMetaExec>
+      <_meta_exec.initialize />
+    </initMetaExec>
+    <postInitMetaExec />
+    <createMetaOutQueue />
+    <getMetaOutQueue />
+    <initMetaOutQueue>
+      <_meta_out_queue.initialize />
+    </initMetaOutQueue>
+    <postInitMetaOutQueue>
+      <_meta_out_queue.postInit />
+    </postInitMetaOutQueue>
+    <createMetaOutFetch />
+    <getMetaOutFetch />
+    <initMetaOutFetch>
+      <System.out.println />
+      <initialize />
+    </initMetaOutFetch>
+    <postInitMetaOutFetch />
+    <createMetaSend />
+    <getMetaSend />
+    <initMetaSend>
+      <_meta_send.initialize />
+    </initMetaSend>
+    <postInitMetaSend />
+    <initFieldsOfMetaInFetch>
+      <initializeFields />
+    </initFieldsOfMetaInFetch>
+    <initFieldsOfMetaOutFetch>
+      <initializeFields />
+    </initFieldsOfMetaOutFetch>
+    <initFieldsOfMetaInQueue>
+      <initializeFields />
+    </initFieldsOfMetaInQueue>
+    <initFieldsOfMetaExec>
+      <initializeFields />
+    </initFieldsOfMetaExec>
+    <initFieldsOfMetaOutQueue>
+      <initializeFields />
+    </initFieldsOfMetaOutQueue>
+    <initFieldsOfMetaSend>
+      <initializeFields />
+    </initFieldsOfMetaSend>
+    <initFieldsOfMetaReceive>
+      <initializeFields />
+    </initFieldsOfMetaReceive>
+  </DefaultComponent>
+  <InstantiateComponentClient>
+    <instantiateComponent>
+      <instantiateComponent />
+    </instantiateComponent>
+    <instantiateComponent>
+      <Daemon.getDaemonAddress />
+      <host_dest.equals />
+      <Daemon.getDaemonPort />
+      <InstantiateComponentCore.coreInstantiateComponent />
+      <establishConnection />
+      <socket.getOutputStream />
+      <socket.getInputStream />
+      <dos.writeUTF />
+      <dis.readUTF />
+    </instantiateComponent>
+  </InstantiateComponentClient>
+  <InstantiateComponentCore>
+    <coreInstantiateComponent>
+      <Daemon.fetchClass />
+      <System.err.println />
+      <System.err.println />
+      <component_class.newInstance />
+      <Daemon.registerComponent />
+      <component.getUniqueID />
+    </coreInstantiateComponent>
+  </InstantiateComponentCore>
+  <InstantiateComponentServer>
+    <instantiateComponent>
+      <dos.writeByte />
+      <dis.readUTF />
+      <InstantiateComponentCore.coreInstantiateComponent />
+      <dos.writeUTF />
+    </instantiateComponent>
+  </InstantiateComponentServer>
+  <MigrateComponent>
+    <initialize />
+    <isMigrable />
+    <removeDestConnection>
+      <removePassiveConnection />
+    </removeDestConnection>
+    <removeSourceConnection />
+    <reConnectComponent>
+      <Daemon.getDaemonAddress />
+      <Daemon.bindAfterMigrationEvent />
+      <Daemon.fetchMigrateComponent />
+      <System.err.println />
+      <_meta_send.addConnection />
+    </reConnectComponent>
+    <stopProcessing />
+    <suspendActivity>
+      <System.out.println />
+      <print />
+      <receiveEvent />
+      <waitThread />
+      <forward />
+      <stopProcessing />
+      <sendEvent />
+      <System.out.println />
+    </suspendActivity>
+    <waitStopSending />
+    <transferLink>
+      <transferLink />
+    </transferLink>
+    <noMoreWait>
+      <numberOfWaitingLinkNull />
+    </noMoreWait>
+    <Metamorphose>
+      <forwardEvent />
+      <forwardEvent />
+    </Metamorphose>
+    <terminate>
+      <receiveEvent />
+      <waitThread />
+      <removeForwardSocket />
+      <System.out.println />
+    </terminate>
+    <forwardAttitude>
+      <forward />
+    </forwardAttitude>
+    <getDestConnection>
+      <getLinkDefinition />
+    </getDestConnection>
+    <getSourceConnection>
+      <getLinkOrigine />
+    </getSourceConnection>
+    <getSourceLinkKey>
+      <getLinkKey />
+    </getSourceLinkKey>
+    <restart>
+      <startThread />
+    </restart>
+    <setBuffer />
+    <getRoles />
+    <createMetaReceive />
+    <createMetaSend />
+    <createMetaInQueue />
+    <createMetaInFetch />
+    <createMetaOutFetch />
+    <beforeMigrate />
+    <afterMigrate>
+      <initializeFields />
+      <startThread />
+    </afterMigrate>
+    <sendState>
+      <oos.writeObject />
+      <e.printStackTrace />
+    </sendState>
+  </MigrateComponent>
+  <MobileComponent>
+    <initialize />
+    <createMetaObjects>
+      <createMobileMetaReceive />
+      <createMobileMetaInQueue />
+      <createMobileMetaInFetch />
+      <createMobileMetaExec />
+      <createMobileMetaOutQueue />
+      <createMobileMetaOutFetch />
+      <createMobileMetaSend />
+    </createMetaObjects>
+    <initAllMetaObjects>
+      <initMobileMetaInQueue />
+      <initMobileMetaExec />
+      <initMobileMetaInFetch />
+      <initMobileMetaOutQueue />
+      <initMobileMetaSend />
+      <initMobileMetaOutFetch />
+      <initMobileMetaReceive />
+    </initAllMetaObjects>
+    <postInitAllMetaObjects>
+      <postInitMobileMetaReceive />
+      <postInitMobileMetaInQueue />
+      <postInitMobileMetaInFetch />
+      <postInitMobileMetaExec />
+      <postInitMobileMetaOutQueue />
+      <postInitMobileMetaOutFetch />
+      <postInitMobileMetaSend />
+    </postInitAllMetaObjects>
+    <createMobileMetaReceive />
+    <getMobileMetaReceive />
+    <initMobileMetaReceive>
+      <_meta_receive.initialize />
+    </initMobileMetaReceive>
+    <postInitMobileMetaReceive />
+    <createMobileMetaInQueue />
+    <getMobileMetaInQueue />
+    <initMobileMetaInQueue>
+      <_meta_in_queue.initialize />
+    </initMobileMetaInQueue>
+    <postInitMobileMetaInQueue>
+      <_meta_in_queue.postInit />
+    </postInitMobileMetaInQueue>
+    <createMobileMetaInFetch />
+    <getMobileMetaInFetch />
+    <initMobileMetaInFetch>
+      <_meta_in_fetch.initialize />
+    </initMobileMetaInFetch>
+    <postInitMobileMetaInFetch />
+    <createMobileMetaExec />
+    <getMobileMetaExec />
+    <initMobileMetaExec>
+      <initialize />
+    </initMobileMetaExec>
+    <postInitMobileMetaExec />
+    <createMobileMetaOutQueue />
+    <getMobileMetaOutQueue />
+    <initMobileMetaOutQueue>
+      <_meta_out_queue.initialize />
+    </initMobileMetaOutQueue>
+    <postInitMobileMetaOutQueue>
+      <_meta_out_queue.postInit />
+    </postInitMobileMetaOutQueue>
+    <createMobileMetaOutFetch />
+    <getMobileMetaOutFetch />
+    <initMobileMetaOutFetch>
+      <initialize />
+    </initMobileMetaOutFetch>
+    <postInitMobileMetaOutFetch />
+    <createMobileMetaSend />
+    <getMobileMetaSend />
+    <initMobileMetaSend>
+      <initialize />
+    </initMobileMetaSend>
+    <postInitMobileMetaSend />
+    <suspendActivity>
+      <_lock.wait />
+      <System.out.println />
+      <System.out.println />
+      <stopThread />
+      <waitThread />
+      <forward />
+      <stopProcessing />
+      <sendEvent />
+    </suspendActivity>
+    <checkMigrationRequest />
+    <restart>
+      <startThread />
+      <startThreadWithContinuation />
+      <System.out.println />
+      <e.printStackTrace />
+    </restart>
+    <setContinuation>
+      <_lock.notify />
+    </setContinuation>
+    <beforeMigrate>
+      <System.out.println />
+      <beforeMigrate />
+      <beforeMigrate />
+      <beforeMigrate />
+      <beforeMigrate />
+      <beforeMigrate />
+      <beforeMigrate />
+      <beforeMigrate />
+    </beforeMigrate>
+    <afterMigrate>
+      <_meta_in_queue />
+      <System.out.println />
+      <createMobileMetaReceive />
+      <createMobileMetaInFetch />
+      <createMobileMetaExec />
+      <createMobileMetaOutFetch />
+      <createMobileMetaSend />
+      <postInitAllMetaObjects />
+      <afterMigrate />
+      <afterMigrate />
+      <afterMigrate />
+      <afterMigrate />
+      <afterMigrate />
+      <afterMigrate />
+      <afterMigrate />
+    </afterMigrate>
+    <restart>
+      <restart />
+    </restart>
+    <enterHandler />
+    <exitHandler />
+    <afterSendState>
+      <clear />
+    </afterSendState>
+    <getQueue>
+      <getQueue />
+    </getQueue>
+    <writeObject>
+      <out.writeObject />
+      <out.writeObject />
+      <out.writeObject />
+      <_meta_in_queue.size />
+      <System.out.println />
+    </writeObject>
+    <readObject>
+      <in.readObject />
+      <in.readObject />
+      <in.readObject />
+      <_meta_in_queue.size />
+      <System.out.println />
+    </readObject>
+    <sendState>
+      <oos.writeObject />
+      <e.printStackTrace />
+      <clear />
+    </sendState>
+    <getUniqueID />
+  </MobileComponent>
+  <RemoveComponentClient>
+    <removeComponent>
+      <removeComponent />
+    </removeComponent>
+    <removeComponent>
+      <Daemon.getDaemonAddress />
+      <comp_address.equals />
+      <Daemon.getDaemonPort />
+      <RemoveComponentCore.coreRemoveComponent />
+      <establishConnection />
+      <socket.getOutputStream />
+      <socket.getInputStream />
+      <dos.writeUTF />
+      <dis.readBoolean />
+    </removeComponent>
+    <disconnectComponent>
+      <disconnectComponent />
+    </disconnectComponent>
+    <disconnectComponent>
+      <Daemon.getDaemonAddress />
+      <comp_address.equals />
+      <Daemon.getDaemonPort />
+      <RemoveComponentCore.coreDisconnectComponent />
+      <establishConnection />
+      <socket.getOutputStream />
+      <socket.getInputStream />
+      <dos.writeUTF />
+      <dis.readBoolean />
+    </disconnectComponent>
+  </RemoveComponentClient>
+  <RemoveComponentCore>
+    <coreRemoveComponent>
+      <Daemon.fetchComponent />
+      <coreDisconnectComponent />
+      <Daemon.unregister />
+      <comp.remove />
+      <System.err.println />
+      <Daemon.fetchComponent />
+      <System.err.println />
+    </coreRemoveComponent>
+    <coreDisconnectComponent>
+      <Daemon.fetchComponent />
+      <Daemon.removePublicChannelsDest />
+      <comp.getAllConnectionSources />
+      <connected_sources.size />
+      <connected_sources.get />
+      <comp.getConnectedSource />
+      <lk.getId />
+      <entry.getAddress />
+      <entry.getPort />
+      <lk.getEventType />
+      <DisconnectProtocolClient.removeConnection />
+      <comp.getAllConnectionDestinations />
+      <connected_destinations.size />
+      <connected_destinations.get />
+      <lk.getId />
+      <lk.getEventType />
+      <comp.IsItConnectedTo />
+      <lk.getId />
+      <lk.getEventType />
+      <comp.removeSourceConnection />
+    </coreDisconnectComponent>
+  </RemoveComponentCore>
+  <RemoveComponentServer>
+    <removeComponent>
+      <dos.writeByte />
+      <dis.readUTF />
+      <RemoveComponentCore.coreRemoveComponent />
+      <System.err.println />
+      <t.printStackTrace />
+      <dos.writeBoolean />
+      <dos.writeBoolean />
+    </removeComponent>
+    <disconnectComponent>
+      <dos.writeByte />
+      <dis.readUTF />
+      <RemoveComponentCore.coreDisconnectComponent />
+      <t.getMessage />
+      <System.err.println />
+      <dos.writeBoolean />
+      <dos.writeBoolean />
+    </disconnectComponent>
+  </RemoveComponentServer>
+  <SendComponentClient>
+    <sendComponent>
+      <sendComponent />
+    </sendComponent>
+    <sendComponent>
+      <System.out.println />
+      <Daemon.getDaemonAddress />
+      <host_dest.equals />
+      <Daemon.getDaemonPort />
+      <Naming.nameToPath />
+      <Naming.simplifyPath />
+      <Daemon.alreadySentComponent />
+      <System.out.println />
+      <establishConnection />
+      <socket.getOutputStream />
+      <socket.getInputStream />
+      <Daemon.fetchFile />
+      <infos.getClassFiles />
+      <System.out.println />
+      <System.out.println />
+      <Naming.classFileToName />
+      <Daemon.alreadySentComponent />
+      <System.out.println />
+      <class_names.contains />
+      <System.out.println />
+      <System.out.println />
+      <class_names.add />
+      <Integer.toString />
+      <System.err.println />
+      <dos.writeInt />
+      <Naming.classFileToName />
+      <Daemon.alreadySentComponent />
+      <dos.writeUTF />
+      <Daemon.fetchBytecode />
+      <file.length />
+      <Long.toString />
+      <System.err.println />
+      <dos.writeLong />
+      <System.out.println />
+      <Daemon.getFileContents />
+      <dos.write />
+      <dos.writeLong />
+      <dos.write />
+      <Daemon.registerSentComponent />
+      <infos.getExtraFiles />
+      <Naming.simplifyPath />
+      <Daemon.alreadySentComponent />
+      <dos.writeInt />
+      <System.err.println />
+      <dos.writeUTF />
+      <Naming.simplifyPath />
+      <Daemon.alreadySentComponent />
+      <Daemon.fetchFile />
+      <dos.writeLong />
+      <dos.write />
+      <file.length />
+      <dos.writeLong />
+      <Daemon.getFileContents />
+      <dos.write />
+      <Daemon.registerSentComponent />
+      <dis.readBoolean />
+      <Daemon.registerSentComponent />
+    </sendComponent>
+  </SendComponentClient>
+  <SendComponentServer>
+    <receiveComponent>
+      <dos.writeByte />
+      <dis.readInt />
+      <dis.readUTF />
+      <dis.readLong />
+      <dis.readFully />
+      <classes.addElement />
+      <loadClasses />
+      <dis.readInt />
+      <dis.readUTF />
+      <dis.readLong />
+      <dis.readFully />
+      <Daemon.registerFile />
+      <dos.writeBoolean />
+    </receiveComponent>
+  </SendComponentServer>
+</files>
+
