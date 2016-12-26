@@ -14,7 +14,7 @@ Run
 1. start java method viewer
 
     ```
-    java -jar classes2/MethodTableViewer.jar 
+    java -jar classes2/MethodTableViewer.jar
     ```
 2. click File -> Open menu
 3. select java source file and click open button
@@ -24,6 +24,7 @@ Apps
 ----
 1. DOM tree of html(?)
 2. 2 pane tree view to view java method name
+   [screenshot2](doc/2.png)
 3. Ocaml(?)
 
 TODO

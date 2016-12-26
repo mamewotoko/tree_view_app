@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<jnlp spec="0.2 1.0"
+      codebase="http://www.yl.is.s.u-tokyo.ac.jp/~tak/"
+      href="MethodTableViewer.jnlp">
+   <information> 
+      <title>Method Table Viewer</title> 
+      <vendor>Takashi Masuyama</vendor>
+      <homepage href="http://www002.upp.so-net.ne.jp/mamewo/java.html"/>
+      <description kind="short">Viewer</description>
+   </information> 
+   <resources>
+      <j2se version="1.4+" href="http://java.sun.com/products/autodl/j2se"/>
+      <j2se version="1.4+"/>
+      <jar href="http://www.yl.is.s.u-tokyo.ac.jp/~tak/MethodTableViewer.jar" download="eager" />
+   </resources>
+   <application-desc main-class="MethodTableViewer" />
+   <argument>-4</argument>
+   <argument>-nobar</argument>
+   <security>
+     <all-permissions/>
+   </security>
+</jnlp> 

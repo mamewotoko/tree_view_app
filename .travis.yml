@@ -1,0 +1,16 @@
+language: java
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+#  - openjdk8
+  - openjdk7
+
+install:
+  - wget https://java.net/projects/javacc/downloads/download/javacc-5.0.zip
+  - unzip javacc-5.0.zip
+  - mv javacc-5.0/bin/ $HOME/bin
+  
+script:
+  - export PATH=$HOME/bin:$PATH
+  - make
+
